@@ -1,0 +1,19 @@
+
+.info{
+    background: #ffffff;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    z-index: 1;
+    padding: 12px 8px;
+    border-radius: 50px;
+    display: grid;
+      svg{
+        font-size: 25px;
+        color: #aaaaaa;
+        margin: 5px 0px;
+        cursor: pointer;
+      }
+  }
+  

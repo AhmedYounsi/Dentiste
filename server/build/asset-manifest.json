@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ce4fed00.css",
+    "main.js": "./static/js/main.34192a1f.js",
+    "static/media/slider-01.png": "./static/media/slider-01.b98bf7ce92405d5cf8e0.png",
+    "static/media/logo asma2.png": "./static/media/logo asma2.6a9c832c4fdefcae6626.png",
+    "static/media/rendez_vous.jpg": "./static/media/rendez_vous.3c9f930877324b71061f.jpg",
+    "static/media/2.png": "./static/media/2.aac15fd62f4cf7a1c290.png",
+    "static/media/D0QBdH.jpg": "./static/media/D0QBdH.0bcab1756b50aa2afd79.jpg",
+    "static/media/dentistes-blanchiment.jpg": "./static/media/dentistes-blanchiment.3df21706b64260a6a3f1.jpg",
+    "static/media/dentistes-angoisse.jpg": "./static/media/dentistes-angoisse.c4c6fc64aeba8a3a1578.jpg",
+    "static/media/chirurgie-dentaire.jpg": "./static/media/chirurgie-dentaire.3be52b599f498cc29a65.jpg",
+    "static/media/Implantologie-1-1170x658.jpg": "./static/media/Implantologie-1-1170x658.61b2596225c1908cf77c.jpg",
+    "static/media/esthetique-dentaire-1-400x401.jpg": "./static/media/esthetique-dentaire-1-400x401.8dcab2e95e174a62e17b.jpg",
+    "static/media/Orthodontie-400x480.jpg": "./static/media/Orthodontie-400x480.b9f6e40fa42eeec760ca.jpg",
+    "static/media/hygiene-dentaire-conseils.jpg": "./static/media/hygiene-dentaire-conseils.9ef4e51d0098cd57b287.jpg",
+    "index.html": "./index.html",
+    "main.ce4fed00.css.map": "./static/css/main.ce4fed00.css.map",
+    "main.34192a1f.js.map": "./static/js/main.34192a1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce4fed00.css",
+    "static/js/main.34192a1f.js"
+  ]
+}

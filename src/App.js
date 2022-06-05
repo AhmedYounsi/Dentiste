@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable */
+import Header from "./components/Header/Header";
+import Slider from "./components/Slider/Slider";
+import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
+import Back from "./assets/img/D0QBdH.jpg";
+import InfoFixed from "./components/InfoFixes/InfoFixed";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <img src={Back} className="background_app" alt="" />
+      {/* <InfoFixed /> */}
+      <Header />
+      <Slider />
+      <Home />
+      <Footer />
     </div>
   );
 }
