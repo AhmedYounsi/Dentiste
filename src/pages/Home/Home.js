@@ -6,9 +6,13 @@ import RendezVous from "../../components/RendezVous/RendezVous";
 import ServiceCarousel from "../../components/ServiceCarousel/ServiceCarousel";
 import Stories from "../../components/Stories/Stories";
 import { BsArrowRight } from "react-icons/bs";
+import Slider from "../../components/Slider/Slider";
 
 function Home() {
   return (
+    <>
+     <Slider />
+  
     <div className="home" style={{ paddingBottom: 150 }}>
       <section className="our-doctor padding-top-25 padding-bottom-50">
         <div className="container">
@@ -95,6 +99,7 @@ function Home() {
       <RendezVous />
       <Stories />
     </div>
+    </>
   );
 }
 

@@ -37,12 +37,12 @@ header{
 // }
 
 
-.active_nav {
+.active {
     color: #8caedb !important;
-    font-weight: 900 !important;
+    // font-weight: 900 !important;
 }
 
-.active_nav::after {
+.active::after {
     width: 15px !important;
 }
 

@@ -16,6 +16,10 @@ code {
     box-shadow: 0 0 2px 0 #fe9191 !important;
 }
 
+.routes{
+  min-height: 100vh;
+}
+
 button:active,a:active{
   opacity: 0.4;
 }
