@@ -22,19 +22,19 @@ function RendezVous() {
                     {" "}
                     Obtenez immédiatement les soins de qualité que vous méritez
                   </h6>
-                  <div className="form_rdv mb-2">
+                  <div className="form_rdv mb-3">
                     <input placeholder="Nom" type="text" className="mr-2" />
                     <input placeholder="Prenom" type="text" />
                   </div>
-                  <div className="form_rdv mb-2">
+                  <div className="form_rdv mb-3">
                     <input placeholder="Email" type="text" className="mr-2 input_mail" />
                     <input placeholder="Téléphone" type="text" />
                   </div>
-                  <div className="form_rdv mb-2">
+                  <div className="form_rdv mb-3">
                   <input placeholder="Adresse" className="mr-2" type="text" />
                     <input placeholder="Sujet" type="text" />
                   </div>
-                  <button className="main-btn ">Valider le Rendez-vous</button>
+                  <button className="main-btn w-100">Valider le Rendez-vous</button>
                 </div>
               </div>
             </div>
