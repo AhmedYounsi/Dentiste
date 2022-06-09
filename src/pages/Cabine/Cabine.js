@@ -10,7 +10,7 @@ function Cabine() {
     <div className="">
       <section
         className="breadcrumb-area padding-50"
-        style={{ backgroundImage: `url(${background})` }}
+         
       >
         <div className="container-fluid">
           <div className="row">

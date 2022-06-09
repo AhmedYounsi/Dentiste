@@ -26,6 +26,7 @@ code {
 }
 
 .breadcrumb-area{
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(140,174,219,1) 100%);
   // position: relative;
 }
 
@@ -126,4 +127,20 @@ position: fixed;
     font-size: 19px !important;
     font-weight: 700 !important;
   }
+}
+
+
+
+@media (min-width: 1200px)
+{
+  .container {
+    max-width: 1400px !important;
+}
+.navbar-area .nav-container .navbar-collapse .navbar-nav li a {
+  font-size: 20px !important;
+}
+.article{
+  width: 400px !important;
+  height: 400px !important;
+}
 }

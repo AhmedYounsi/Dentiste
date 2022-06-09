@@ -102,7 +102,7 @@ function Header() {
               </div>
             </nav>
 
-            <div className="header-bg"></div>
+         
           </div>
         </div>
       </div>
