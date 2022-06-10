@@ -25,6 +25,7 @@ function Slider() {
                   <p>
                     Prenez un rendez-vous avec l’un des spécialisés dans la
                     chirurgie dentaire
+                    <br />
                     <b> Dr Asma cherif</b>
                   </p>
                 </div>

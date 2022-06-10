@@ -129,18 +129,22 @@ position: fixed;
   }
 }
 
-
-
-@media (min-width: 1200px)
+@media (min-width: 1400px)
 {
   .container {
     max-width: 1400px !important;
 }
-.navbar-area .nav-container .navbar-collapse .navbar-nav li a {
-  font-size: 20px !important;
-}
+ 
 .article{
   width: 400px !important;
   height: 400px !important;
 }
+  .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
+    font-size: 20px !important;
+  }
+}
+
+@media (min-width: 1200px)
+{
+
 }

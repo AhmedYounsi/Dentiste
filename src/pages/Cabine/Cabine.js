@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import RendezVous from "../../components/RendezVous/RendezVous";
 import background from "../../assets/img/breadcrumb-bg.png";
