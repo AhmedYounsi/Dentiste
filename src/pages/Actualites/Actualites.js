@@ -1,9 +1,9 @@
 import React from 'react'
 
-function AvantApres() {
+function Actualites() {
   return (
     <div>
-         <section
+           <section
         className="breadcrumb-area padding-50 mb-3"
 
       >
@@ -12,14 +12,14 @@ function AvantApres() {
             <div className="breadcrumb-content">
               <div className="col-12 px-0">
                 <div className="page-title">
-                  <h1 className="heading-1">Avant et Après</h1>
+                  <h1 className="heading-1">Actualités Dentaires</h1>
                 </div>
               </div>
               <ul className="page-list">
                 <li>
                   <a href="index.html">Accueil</a>
                 </li>
-                <li>Avant et après</li>
+                <li>Actualités</li>
               </ul>
             </div>
           </div>
@@ -29,4 +29,4 @@ function AvantApres() {
   )
 }
 
-export default AvantApres
+export default Actualites

@@ -11,7 +11,6 @@ function Cabine() {
     <div className="">
       <section
         className="breadcrumb-area padding-50"
-         
       >
         <div className="container-fluid">
           <div className="row">
@@ -31,9 +30,9 @@ function Cabine() {
           </div>
         </div>
       </section>
-
+  
       <Doctor title={false} />
-      <section className="why-choose-section padding-100">
+      <section className="why-choose-section padding-50 ">
         <div className="container">
           <div className="row">
          

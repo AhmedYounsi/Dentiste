@@ -57,37 +57,37 @@ function Header() {
                       </NavLink>
                     </li>
                     <li>
-                      <a href="about.html">{"Avant & Après"}</a>
+                      <NavLink
+                        className="nav-link"
+                        to="/avant-apres-dentiste"
+                      >
+                        Avant et Après
+                      </NavLink>
                     </li>
 
-                    <li className="menu-item-has-children">
-                      <a href="#">Blog</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="faq.html">faqs</a>
-                        </li>
-                        <li>
-                          <a href="login.html">Sign In</a>
-                        </li>
-                        <li>
-                          <a href="login-2.html">Sign Up</a>
-                        </li>
-                        <li>
-                          <a href="gallery.html">Gallery</a>
-                        </li>
-                        <li>
-                          <a href="help-center.html">Help Center</a>
-                        </li>
-                        <li>
-                          <a href="membership.html">Membership</a>
-                        </li>
-                      </ul>
+                    <li>
+                      <NavLink
+                        className="nav-link"
+                        to="/actualite-dentaire"
+                      >
+                        Actualités
+                      </NavLink>
                     </li>
                     <li>
-                      <a href="about.html">FAQ</a>
+                      <NavLink
+                        className="nav-link"
+                        to="/question-dentaire-tunisie"
+                      >
+                        FAQ
+                      </NavLink>
                     </li>
                     <li>
-                      <a href="contact.html">contact</a>
+                      <NavLink
+                        className="nav-link"
+                        to="/contact-cabinet-dentaire-tunisie"
+                      >
+                        Contact
+                      </NavLink>
                     </li>
                   </ul>
                   {/* <div className="contact-header">
