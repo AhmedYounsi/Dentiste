@@ -1,9 +1,9 @@
 import React from 'react'
 import Carousel from "react-elastic-carousel";
-import Service1 from "../../assets/img/esthetique-dentaire-1-400x401.jpg";
-import Service2 from "../../assets/img/Orthodontie-400x480.jpg";
+ import Service2 from "../../assets/img/Orthodontie-400x480.jpg";
 import Service3 from "../../assets/img/chirurgie-dentaire.jpg";
 import Service0 from "../../assets/img/Implantologie-1-1170x658.jpg";
+import Service5 from "../../assets/img/chirurgie-dent-de-sagesse.jpg"
 import Service4 from "../../assets/img/esthetique-dentaire.jpg";
 import { BsCheck2Square } from "react-icons/bs";
 import RendezVous from '../../components/RendezVous/RendezVous';
@@ -99,7 +99,17 @@ function Traitements() {
                       className="service-item service-carousel"
                     >
                       <div className="heading-6 service-div">
-                        <h3>Esthétique dentaire</h3>
+                        <h3>Facettes dentaires <br /> veneers</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-12 col-sm-12">
+                    <div
+                      style={{ backgroundImage: `url(${Service5})` }}
+                      className="service-item service-carousel"
+                    >
+                      <div className="heading-6 service-div">
+                        <h3>Chirurgie <br /> Dent de sagesse</h3>
                       </div>
                     </div>
                   </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import RendezVous from '../../components/RendezVous/RendezVous'
 
 function Contact() {
   return (
@@ -25,6 +26,7 @@ function Contact() {
           </div>
         </div>
       </section>
+      <RendezVous />
     </div>
   )
 }

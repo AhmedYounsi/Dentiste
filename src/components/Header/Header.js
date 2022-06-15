@@ -68,7 +68,7 @@ function Header() {
                     <li>
                       <NavLink
                         className="nav-link"
-                        to="/actualite-dentaire"
+                        to="/actualite-dentiste-tunisie"
                       >
                         Actualités
                       </NavLink>
@@ -76,7 +76,7 @@ function Header() {
                     <li>
                       <NavLink
                         className="nav-link"
-                        to="/question-dentaire-tunisie"
+                        to="/question-dentiste-tunisie"
                       >
                         FAQ
                       </NavLink>
@@ -84,7 +84,7 @@ function Header() {
                     <li>
                       <NavLink
                         className="nav-link"
-                        to="/contact-cabinet-dentaire-tunisie"
+                        to="/contact-dentiste-tunisie"
                       >
                         Contact
                       </NavLink>

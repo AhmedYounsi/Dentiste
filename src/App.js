@@ -9,6 +9,7 @@ import Traitements from "./pages/Traitements/Traitements";
 import Contact from "./pages/Contact/Contact";
 import AvantApres from "./pages/AvantApres/AvantApres";
 import Actualites from "./pages/Actualites/Actualites";
+import FAQ from "./pages/FAQ/FAQ";
 function App() {
   return (
     <div>
@@ -20,9 +21,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/cabinet-dentiste-tunisie" element={<Cabine />} />
-          <Route path="/contact-cabinet-dentaire-tunisie" element={<Contact />} />
+          <Route path="/contact-dentiste-tunisie" element={<Contact />} />
           <Route path="/avant-apres-dentiste" element={<AvantApres />} />
-          <Route path="/actualite-dentaire" element={<Actualites />} />
+          <Route path="/actualite-dentiste-tunisie" element={<Actualites />} />
+          <Route path="/question-dentiste-tunisie" element={<FAQ />} />
           <Route
             path="/traitement-dentaire-tunisie"
             element={<Traitements />}
