@@ -3858,8 +3858,8 @@ header {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
       .appointment-section .appointment-content .tab-content .appointment-img-area {
-        max-width: 335px;
-        width: 40%; }
+         
+        width: 30%; }
         .appointment-section .appointment-content .tab-content .appointment-img-area img {
           width: 100%;
           border-radius: 0 20px 20px 0; }

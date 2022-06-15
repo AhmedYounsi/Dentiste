@@ -10,7 +10,6 @@ function ServiceCarousel() {
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
     { width: 850, itemsToShow: 3 },
-
   ]
   return (
     <section id="service" className="service pb-5">

@@ -130,12 +130,19 @@ position: fixed;
     font-weight: 700 !important;
   }
 }
-
 @media (min-width: 1400px)
 {
   .container {
     max-width: 1400px !important;
 }
+@media (min-width: 1600px)
+{
+  .container {
+    max-width: 1600px !important;
+  }
+}
+ 
+
  
 .article{
   width: 400px !important;

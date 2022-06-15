@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.dc2d9a16.css",
-    "main.js": "./static/js/main.a7fa3841.js",
+    "main.css": "./static/css/main.680755be.css",
+    "main.js": "./static/js/main.b7d7f3b5.js",
     "static/media/cabinet-dentiste-tunisie-image.jpg": "./static/media/cabinet-dentiste-tunisie-image.50e7309da86bc4dbeee7.jpg",
     "static/media/slider-01.png": "./static/media/slider-01.b98bf7ce92405d5cf8e0.png",
+    "static/media/chirurgie-dent-de-sagesse.jpg": "./static/media/chirurgie-dent-de-sagesse.209651172d589863a7cc.jpg",
     "static/media/rendez_vous.jpg": "./static/media/rendez_vous.3c9f930877324b71061f.jpg",
     "static/media/2.png": "./static/media/2.aac15fd62f4cf7a1c290.png",
     "static/media/D0QBdH.jpg": "./static/media/D0QBdH.0bcab1756b50aa2afd79.jpg",
@@ -19,11 +20,11 @@
     "static/media/hygiene-dentaire-conseils.jpg": "./static/media/hygiene-dentaire-conseils.9ef4e51d0098cd57b287.jpg",
     "static/media/esthetique-dentaire.jpg": "./static/media/esthetique-dentaire.5e461129b09b77f7abdc.jpg",
     "index.html": "./index.html",
-    "main.dc2d9a16.css.map": "./static/css/main.dc2d9a16.css.map",
-    "main.a7fa3841.js.map": "./static/js/main.a7fa3841.js.map"
+    "main.680755be.css.map": "./static/css/main.680755be.css.map",
+    "main.b7d7f3b5.js.map": "./static/js/main.b7d7f3b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc2d9a16.css",
-    "static/js/main.a7fa3841.js"
+    "static/css/main.680755be.css",
+    "static/js/main.b7d7f3b5.js"
   ]
 }

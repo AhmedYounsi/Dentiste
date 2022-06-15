@@ -19,8 +19,9 @@ function Slider() {
             <div className="slider-content-area">
               <div className="slider-content">
                 <h1 className="slider-heading">
-                  Le meilleur de la santé dentaire <br /> Pour tous !
+                Dentiste Tunisie
                 </h1>
+                <h2 className='m-0'> Le meilleur cabinet de la santé dentaire, Pour tous !</h2>
                 <div  className="padding-20 header-text">
                   <p>
                     Prenez un rendez-vous avec l’un des spécialisés dans la

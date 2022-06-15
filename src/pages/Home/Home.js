@@ -8,20 +8,28 @@ import Stories from "../../components/Stories/Stories";
 import { BsArrowRight } from "react-icons/bs";
 import Slider from "../../components/Slider/Slider";
 import Doctor from "../../components/Doctor/Doctor";
-
+import { Helmet } from "react-helmet";
 function Home() {
   return (
     <>
-    <br />
-     <Slider />
-    
-    <div className="home" style={{ paddingBottom: 150 }}>
-      <Doctor title={true} />
-      <DetailsCabinet />
-      <ServiceCarousel />
-      <RendezVous />
-      <Stories />
-    </div>
+      <br />
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Dentiste tunisie cabinet | chirurgien dentiste tunisie</title>
+        <meta
+          name="description"
+          content="dentiste tunisie est le site internet qui vous aide a trouver un dentiste tunisien et de prendre une consultation en ligne qui vous gagantie des traitements dentaires adaptés à vos besoins"
+        />
+      </Helmet>
+      <Slider />
+
+      <div className="home" style={{ paddingBottom: 150 }}>
+        <Doctor title={true} />
+        <DetailsCabinet />
+        <ServiceCarousel />
+        <RendezVous />
+        <Stories />
+      </div>
     </>
   );
 }
