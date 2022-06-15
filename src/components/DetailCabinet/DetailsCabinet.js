@@ -21,8 +21,8 @@ function DetailsCabinet() {
                 <img src={img_1} alt="img" />
               </div>
               <div className="content">
-                <span className="count-num">DES SOINS DE QUALITÉ</span>
-                <h4 className="title">
+                <h3 className="valeur-title mt-3">DES SOINS DE QUALITÉ</h3>
+                <h4 className="valeur-text">
                   La qualité des soins prodigués et la sécurité de nos patients
                   sont notre priorité !
                 </h4>
@@ -35,8 +35,8 @@ function DetailsCabinet() {
                 <img src={img_4} alt="img" />
               </div>
               <div className="content">
-                <span className="count-num">DU MATÉRIEL DE POINTE</span>
-                <h4 className="title">
+              <h3 className="valeur-title mt-3">DU MATÉRIEL DE POINTE</h3>
+                <h4 className="valeur-text">
                   Nous disposons d’un matériel de pointe, adapté à la
                   morphologie des plus petits et adoptons une approche adaptée à
                   chacun
@@ -51,8 +51,8 @@ function DetailsCabinet() {
                 <img src={img_2} alt="img" />
               </div>
               <div className="content">
-                <span className="count-num">TRANSPARANCE A VOS QUESTIONS</span>
-                <h4 className="title">
+              <h3 className="valeur-title mt-3">TRANSPARANCE A VOS QUESTIONS</h3>
+                <h4 className="valeur-text">
                 Consultez notre rubrique FAQ pour plus d’informations.
                 </h4>
               </div>

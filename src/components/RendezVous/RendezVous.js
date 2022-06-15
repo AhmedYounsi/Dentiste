@@ -18,10 +18,10 @@ function RendezVous() {
                    
                 </div>
                 <div className="appointment">
-                  <h6>
+                  <h3>
                     {" "}
                     Obtenez immédiatement les soins de qualité que vous méritez
-                  </h6>
+                  </h3>
                   <div className="form_rdv mb-3">
                     <input placeholder="Nom" type="text" className="mr-2" />
                     <input placeholder="Prenom" type="text" />

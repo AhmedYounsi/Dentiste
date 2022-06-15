@@ -10,6 +10,7 @@ function ServiceCarousel() {
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
     { width: 850, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 4 },
   ]
   return (
     <section id="service" className="service pb-5">
@@ -25,9 +26,9 @@ function ServiceCarousel() {
                 <h2 className="heading">Traitements Dentaires</h2>
               </div>
             </div>
-                <h5 className="heading-5">
+                <h3 className="heading-5">
                   Des <b>traitements dentaires</b> adaptés à vos besoins :
-                </h5>
+                </h3>
                 <div>
                   <p>
                     Nous vous garantissons des <b>traitements dentaires</b> adaptés à
@@ -74,6 +75,7 @@ function ServiceCarousel() {
                         </div>
                       </div>
                     </div>
+                    
                   </Carousel>
                 </div>
               </div>

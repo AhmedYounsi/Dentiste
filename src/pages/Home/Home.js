@@ -10,6 +10,7 @@ import Slider from "../../components/Slider/Slider";
 import Doctor from "../../components/Doctor/Doctor";
 import { Helmet } from "react-helmet";
 function Home() {
+ 
   return (
     <>
       <br />
@@ -18,7 +19,7 @@ function Home() {
         <title>Dentiste tunisie cabinet | chirurgien dentiste tunisie</title>
         <meta
           name="description"
-          content="dentiste tunisie est le site internet qui vous aide a trouver un dentiste tunisien et de prendre une consultation en ligne qui vous gagantie des traitements dentaires adaptés à vos besoins"
+          content="dentiste tunisie est le site internet qui vous aide a trouver un dentiste tunisien et de prendre une consultation qui vous gagantie des traitements dentaires"
         />
       </Helmet>
       <Slider />

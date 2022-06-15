@@ -26,7 +26,7 @@ function Stories() {
             <AiOutlinePlusCircle />
           <img src={IMG_1} alt="img" />
           <div className="date-article">
-            <h4>Les 10 règles de l'hygiène dentaire</h4>
+            <h3>Les 10 règles de l'hygiène dentaire</h3>
             <p className="">18 mai 2022</p>
           </div>
         </div>
@@ -34,7 +34,7 @@ function Stories() {
             <AiOutlinePlusCircle />
             <img src={IMG_2} alt="img" />
           <div className="date-article">
-            <h4>Attention aux angoissés</h4>
+            <h3>Attention aux angoissés</h3>
             <p className="">07 mai 2022</p>
           </div>
         </div>
@@ -42,7 +42,7 @@ function Stories() {
             <AiOutlinePlusCircle />
             <img src={IMG_3} alt="img" />
           <div className="date-article">
-            <h4>Blanchir les dents ne les fragilise pas</h4>
+            <h3>Blanchir les dents ne les fragilise pas</h3>
             <p className="">01 jun 2022</p>
           </div>
         </div>
