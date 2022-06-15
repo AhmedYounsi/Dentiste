@@ -5,6 +5,7 @@ import Service1 from "../../assets/img/esthetique-dentaire-1-400x401.jpg";
 import Service2 from "../../assets/img/Orthodontie-400x480.jpg";
 import Service3 from "../../assets/img/chirurgie-dentaire.jpg";
 import Service0 from "../../assets/img/Implantologie-1-1170x658.jpg";
+import "./ServiceCarousel.scss"
 function ServiceCarousel() {
   const  breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -34,7 +35,8 @@ function ServiceCarousel() {
                     Nous vous garantissons des <b>traitements dentaires</b> adaptés à
                     vos besoins, <br /> prodigués par le docteur <b>Asma Cherif</b>, au
                     prix le plus juste et avec une prise en charge rapide,
-                    complète et personnalisée. Ces <b>traitements dentaires</b> vous
+                    complète et personnalisée. <br />
+                    Ces <b>traitements dentaires</b> vous
                     permettront de conserver ou de rétablir une bonne santé
                   </p>
                 </div>

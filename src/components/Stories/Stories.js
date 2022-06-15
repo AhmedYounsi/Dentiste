@@ -18,7 +18,7 @@ function Stories() {
     <div className="container stories">
       <div className="col-lg-12">
         <div className="common-title padding-bottom-40">
-          <h2 className="heading line-left">Nos Derniers Articles</h2>
+          <h2 className="heading">Nos Derniers Articles</h2>
         </div>
       </div>
       <Carousel pagination={false} itemPadding={[0, 5]} breakPoints={breakPoints} itemsToShow={3} >
