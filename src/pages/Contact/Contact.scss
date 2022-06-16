@@ -1,0 +1,13 @@
+.contact-items{
+    padding: 0 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+        pointer-events: none;
+        height: 60px;
+        margin-top: 10px;
+    }
+}

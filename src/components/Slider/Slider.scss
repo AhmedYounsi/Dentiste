@@ -61,7 +61,10 @@ height: 76vh;
 }
 .slider-content{
   h2{
-line-height: normal;
+    line-height: normal;
+    font-size: 24px !important;
+    font-weight: 600;
+    color: #09499e;
   }
 }
 @media (max-width: 700px)

@@ -24,7 +24,7 @@ function Footer() {
                     <span className="icon">
                    <b>Téléphone : </b>
                     </span>
-                    54 339 924
+                    54 339 924 - 71 432 393
                   </li>
                   <li>
                     <span className="icon">

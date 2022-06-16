@@ -40,7 +40,7 @@ function Slider() {
                       <b> Dr Asma cherif</b>
                     </p>
                   </div>
-                  <div className="main-btn-wrap">
+                  <div className="main-btn-wrap mt-2">
                     <a href="#" className="main-btn">Prenez Un rendez-vous</a>
                   </div>
                 </div>
