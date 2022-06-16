@@ -3066,7 +3066,7 @@ header {
             margin-right: 8%;
             min-height: 600px; }
             .home-slider.slider-style-02 .plastic-surgery-slider .surgery-slider-area-02 .surgery-slider-wrapper .slider-items .slider-content-area .slider-content {
-              width: 40%;
+              width: 50%;
               position: absolute;
               top: 53%;
               -webkit-transform: translateY(-50%);
@@ -3218,7 +3218,7 @@ header {
           width: 30%; }
           .home-slider.slider-style-01 .surgery-slide-wrapper .surgery-slider-items .slider-content-area .slider-content {
             position: absolute;
-            top: 44%;
+            top: 50%;
             left: 8.5%;
             margin: 0;
             width: 35%;
@@ -3429,7 +3429,7 @@ header {
 
 @media (max-width: 1450px) {
   .home-slider .home-slider-wrapper .slider-items .slider-content-area .slider-content {
-    width: 40%; }
+    width: 50%; }
   .home-slider.slider-style-01 .surgery-slide-wrapper .surgery-slider-items .slider-content-area .slider-content {
     width: 50%; }
   .home-slider.slider-style-04 .slider-wrapper .slider-items .slider-content-area .slider-content {

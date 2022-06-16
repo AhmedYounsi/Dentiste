@@ -1,14 +1,21 @@
 /* eslint-disable */
 import React, { useState } from 'react'
 import SliderImg from "../../assets/img/slider/slider-01.png"
+import SliderImg2 from "../../assets/img/dentiste-tunisie-traitement.jpg"
 import "./Slider.scss"
+import { IoIosArrowDroprightCircle,IoIosArrowDropleftCircle } from 'react-icons/io';
+
+
 function Slider() {
   const [Slide, setSlide] = useState(0)
 
 
   return (
     <div className="home-slider home-slider-one">
+      <IoIosArrowDroprightCircle  onClick={() => setSlide(1)} />
+      <IoIosArrowDropleftCircle  onClick={() => setSlide(0)} />
       <div className="container-fluid">
+     
         <div className="row">
           <div className="scroll-down-area">
             <div className="slider-bottom-area">
@@ -17,7 +24,7 @@ function Slider() {
           </div>
 
           <div className="home-slider-wrapper">
-
+        
             <div className="slider-items">
               <div className="slider-content-area">
                 <div className="slider-content">
@@ -41,14 +48,14 @@ function Slider() {
 
             <div className='all-images'>
             <div
-                onClick={() => setSlide(1)}
+               
                 className={"slider-images " + (Slide == 0 ? "slider-show" : "to_left")}
                 style={{ backgroundImage: `url(${SliderImg})` }}
               ></div>
                 <div
                  onClick={() => setSlide(0)}
                 className={"slider-images " + (Slide == 1 ? "slider-show" : "to_rigth")}
-                style={{ backgroundImage: `url(${SliderImg})` }}
+                style={{ backgroundImage: `url(${SliderImg2})` }}
               ></div>
             </div>
 
