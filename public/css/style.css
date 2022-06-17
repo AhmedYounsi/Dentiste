@@ -3509,7 +3509,6 @@ header {
 }
 .service-carousel{
   width: 100%;
-  max-width: 350px;
   height: 350px;
   background-size: cover;
   background-position: center;

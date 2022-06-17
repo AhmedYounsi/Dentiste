@@ -2,7 +2,7 @@ import React from "react";
 import Image from "../../assets/img/rendez_vous.jpg";
 function RendezVous() {
   return (
-    <section className="appointment-section padding-top-50 padding-bottom-100 rltv">
+    <section className="appointment-section padding-top-50 padding-bottom-50 rltv">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 col-md-12">

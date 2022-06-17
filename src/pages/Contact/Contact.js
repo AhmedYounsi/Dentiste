@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import RendezVous from "../../components/RendezVous/RendezVous";
 import img_1 from "../../assets/img/telephone-icon.png";
@@ -65,7 +66,7 @@ function Contact() {
         </div>
       </div>
       <RendezVous />
-    </div>
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=36.7684390433394,%2010.224567685839622&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br /><style>.mapouter{}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {}</style></div></div>    </div>
   );
 }
 
