@@ -1,7 +1,7 @@
 import React from "react";
-import img_1 from "../../assets/img/icon_traitements.png";
-import img_2 from "../../assets/img/icon_faq.png";
-import img_4 from "../../assets/img/icon_centres.png";
+import img_1 from "../../assets/img/icons/icon_traitements.png";
+import img_2 from "../../assets/img/icons/icon_faq.png";
+import img_4 from "../../assets/img/icons/icon_centres.png";
 import './DetailsCabinet.scss'
 function DetailsCabinet() {
   return (
@@ -24,7 +24,7 @@ function DetailsCabinet() {
                 <h3 className="valeur-title mt-3">DES SOINS DE QUALITÉ</h3>
                 <h4 className="valeur-text">
                   La qualité des soins prodigués et la sécurité de nos patients
-                  sont notre priorité !
+                  sont une priorité chez <br /> <b>Cabient dentiste tunisie</b>
                 </h4>
               </div>
             </div>
@@ -37,7 +37,7 @@ function DetailsCabinet() {
               <div className="content">
               <h3 className="valeur-title mt-3">DU MATÉRIEL DE POINTE</h3>
                 <h4 className="valeur-text">
-                  Nous disposons d’un matériel de pointe, adapté à la
+                <b>Cabient dentiste tunisie</b> dispose d’un matériel de pointe, adapté à la
                   morphologie des plus petits et adoptons une approche adaptée à
                   chacun
                 </h4>
@@ -53,7 +53,8 @@ function DetailsCabinet() {
               <div className="content">
               <h3 className="valeur-title mt-3">TRANSPARANCE A VOS QUESTIONS</h3>
                 <h4 className="valeur-text">
-                Consultez notre rubrique FAQ pour plus d’informations.
+                Consultez notre rubrique FAQ pour plus d’informations. <br />
+                <b>Cabient dentiste tunisie </b>vous répond !
                 </h4>
               </div>
             </div>

@@ -1,10 +1,12 @@
 /* eslint-disable */
 import React from 'react'
 import { BsArrowRight } from "react-icons/bs";
-import DoctorImage from "../../assets/img/doctor/2.png";
-import CabinetImage from "../../assets/img/cabinet-dentiste-tunisie-image.jpg";
+import DoctorImage from "../../assets/img/dentiste-tunisie-docteur.png";
+import CabinetImage from "../../assets/img/dentiste-tunisie.jpg";
+import { useNavigate } from 'react-router-dom';
 
 function Doctor(props) {
+  const navigate= useNavigate()
   return (
     <section className="our-doctor padding-top-50 padding-bottom-50">
     <div className="container">
@@ -27,7 +29,7 @@ function Doctor(props) {
                     <div className="doctor-slider-img">
                       <img
                         src={props.title ? DoctorImage : CabinetImage}
-                        className="d-block w-100"
+                        className="d-block w-100 mb-2"
                         alt="dentiste tunisie cabinet presentation"
                       />
                     </div>
@@ -71,9 +73,9 @@ function Doctor(props) {
                        </div>
                     { props.title && <div className="d-flex mt-4">
                         <div className="main-btn-wrap">
-                          <a  href="#" className="main-btn">
+                          <button onClick={()=>navigate("/cabinet-dentiste-tunisie")} className="main-btn">
                             Voir plus
-                          </a>
+                          </button>
                         </div>
                       </div>}
                     </div>

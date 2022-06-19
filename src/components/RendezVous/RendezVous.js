@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../assets/img/rendez_vous.jpg";
+import Image from "../../assets/img/cabinet-dentiste-rendez-vous.jpg";
 function RendezVous() {
   return (
     <section className="appointment-section padding-top-50 padding-bottom-50 rltv">
@@ -14,15 +14,14 @@ function RendezVous() {
             <div className="appointment-content">
               <div className="tab-content">
                 <div className="appointment-img-area">
-                  <img src={Image} alt="img" />
+                  <img src={Image} alt="cabinet densite tunisie rendez vous" />
                    
                 </div>
                 <div className="appointment">
-                  <h3>
-                    {" "}
-                    Obtenez immédiatement les soins de qualité que vous méritez
+                  <h3 className="heading">
+                    Obtenez un rendez-vous chez cabinet dentiste tunisie
                   </h3>
-                  <div className="form_rdv mb-3">
+                  <div className="form_rdv mb-3 mt-3">
                     <input placeholder="Nom" type="text" className="mr-2" />
                     <input placeholder="Prenom" type="text" />
                   </div>

@@ -31,9 +31,7 @@ html {
 body.modal-open {
   padding-right: 0 !important; }
 
-.logo_dentiste{
-  width: 170px;
-}
+
 p{
   font-size: 20px !important;
 }
@@ -2068,11 +2066,6 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   background-color: #FFFFFF;
   border: 1px solid #DEE5EA; }
 
-/*--------------------------------------------------------------
-	## Header
---------------------------------------------------------------*/
-header {
-  padding: 45px 0; }
   header.plastic-header-style-02 {
     position: absolute;
     top: 0;
@@ -3348,7 +3341,7 @@ header {
     padding-left: 5px; }
     .home-slider .slider-content .slider-heading {
       color: var(--heading-color);
-      font-size: 46px;
+      font-size: 42px;
       line-height: 56px;
       font-weight: 600;
       font-family: var(--body-font);
@@ -3844,7 +3837,7 @@ header {
     border: 1px solid rgba(133, 150, 167, 0.36);
     border-radius: 20px;
     width: 100%;
-    padding: 100px 0 95px 0; }
+    padding: 50px 0 95px 0; }
     .appointment-section .appointment-content::after {
       content: "";
       display: table;
@@ -6111,7 +6104,6 @@ header {
 .main-btn-wrap .main-btn, .main-btn-wrap-2 .main-btn, .main-btn-wrap-inactive .main-btn {
   font-size: 15px;
   font-family: var(--body-font);
-  line-height: 30px;
   border-radius: 40px;
   font-weight: 400;
   padding: 15px 20px;

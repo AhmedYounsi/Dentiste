@@ -144,16 +144,39 @@ position: fixed;
  
 
  
-.article{
-  width: 450px !important;
-  height: 450px !important;
-}
   .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
     font-size: 20px !important;
   }
 }
-
-@media (min-width: 1200px)
+@media (max-width: 1200px)
 {
+ 
+.rec-item-wrapper{
+  
+    padding: 15px !important;
+  }
+ 
+}
+.rel{
+  position: relative;
+}
+@media (max-width: 600px)
 
+{
+  .row{
+  padding: 0 10px;
+}
+.rec-arrow{
+  display: none;
+}
+.rec-item-wrapper{
+  div:first-child{
+    padding: 0 !important;
+  }
+}
+.home-slider{
+  svg{
+    display: none;
+  }
+}
 }

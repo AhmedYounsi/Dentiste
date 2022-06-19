@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React, { useState } from 'react'
-import SliderImg from "../../assets/img/slider/slider-01.png"
+import SliderImg from "../../assets/img/densite-tunisie-cabinet.png"
 import SliderImg2 from "../../assets/img/dentiste-tunisie-traitement.jpg"
 import "./Slider.scss"
 import { IoIosArrowDroprightCircle,IoIosArrowDropleftCircle } from 'react-icons/io';
@@ -31,7 +31,7 @@ function Slider() {
                   <h1 className="slider-heading">
                     Cabinet Dentiste Tunisie
                   </h1>
-                  <h2 className='m-0'> Le meilleur cabinet de la santé dentaire, Pour tous !</h2>
+                  <h2 className='m-0'> Le meilleur cabinet dentaire en tunisie, Pour tous !</h2>
                   <div className="padding-10 header-text">
                     <p>
                       Prenez un rendez-vous avec l’un des spécialisés dans la

@@ -1,9 +1,9 @@
 /* eslint-disable */
 import React from "react";
 import RendezVous from "../../components/RendezVous/RendezVous";
-import img_1 from "../../assets/img/telephone-icon.png";
-import img_2 from "../../assets/img/mail-icon.png";
-import img_3 from "../../assets/img/adresse-icon.png";
+import img_1 from "../../assets/img/icons/telephone-dentiste-tunisie.png";
+import img_2 from "../../assets/img/icons/mail-dentiste-tunisie.png";
+import img_3 from "../../assets/img/icons/adresse-dentiste-tunisie.png";
 
 import "./Contact.scss";
 function Contact() {
@@ -32,7 +32,9 @@ function Contact() {
         <div className="row">
           <div className="col-lg-4 col-md-6">
             <div className="single-couterup contact-items">
-              <img src={img_1} alt="img" />
+              <div className="image">
+                <img className="icon-contact" src={img_1} alt="téléphone dentiste tunisie" />
+              </div>
 
               <div className="content">
                 <h3 className="valeur-title mt-3">Téléphone</h3>
@@ -42,7 +44,9 @@ function Contact() {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="single-couterup contact-items">
-              <img src={img_2} alt="img" />
+              <div className="image">
+                <img className="icon-contact" src={img_2} alt="mail dentiste tunisie" />
+              </div>
 
               <div className="content">
                 <h3 className="valeur-title mt-3">Email</h3>
@@ -53,7 +57,9 @@ function Contact() {
 
           <div className="col-lg-4 col-md-6">
             <div className="single-couterup contact-items">
-              <img src={img_3} alt="img" />
+              <div className="image">
+                <img   src={img_3} alt="adresse dentiste tunisie" />
+              </div>
 
               <div className="content">
                 <h3 className="valeur-title mt-3">Adresse</h3>
@@ -66,7 +72,26 @@ function Contact() {
         </div>
       </div>
       <RendezVous />
-      <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=36.7684390433394,%2010.224567685839622&t=k&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-a.com"></a><br /><style>.mapouter{}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {}</style></div></div>    </div>
+      <div className="mapouter">
+        <div className="gmap_canvas">
+          <iframe
+            width="600"
+            height="500"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=36.7684390433394,%2010.224567685839622&t=k&z=17&ie=UTF8&iwloc=&output=embed"
+            frameBorder="0"
+            scrolling="no"
+            marginHeight="0"
+            marginWidth="0"
+          ></iframe>
+          <a href="https://123movies-a.com"></a>
+          <br />
+          <style>.mapouter{}</style>
+          <a href="https://www.embedgooglemap.net"></a>
+          <style>.gmap_canvas {}</style>
+        </div>
+      </div>{" "}
+    </div>
   );
 }
 

@@ -1,7 +1,6 @@
 /* eslint-disable */
 import React from "react";
-import DoctorImage from "../../assets/img/doctor/2.png";
-import DetailsCabinet from "../../components/DetailCabinet/DetailsCabinet";
+ import DetailsCabinet from "../../components/DetailCabinet/DetailsCabinet";
 import RendezVous from "../../components/RendezVous/RendezVous";
 import ServiceCarousel from "../../components/ServiceCarousel/ServiceCarousel";
 import Stories from "../../components/Stories/Stories";

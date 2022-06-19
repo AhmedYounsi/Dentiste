@@ -1,14 +1,49 @@
 /* eslint-disable */
-import React from "react";
+import React,{useState} from "react";
 import Logo from "../../assets/img/logo asma2.png";
 import "./Header.scss";
-import { BsTelephone } from "react-icons/bs";
-import { FiMail } from "react-icons/fi";
+import { BsTelephoneFill } from "react-icons/bs";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { GrMail } from "react-icons/gr";
 import { NavLink } from "react-router-dom";
+import { Button, Offcanvas } from "react-bootstrap";
 
 function Header() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
+    <>
+          <Offcanvas show={show} onHide={handleClose}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </Offcanvas.Body>
+      </Offcanvas>
+      <Button variant="primary" onClick={handleShow}>
+        Launch
+      </Button>
     <header>
+      <div className="contanct-header">
+        <div className="contact-content">
+          <div className="tel">
+            <BsTelephoneFill />
+            54 339 924 - 71 432 393
+          </div>
+          <div className="mail">
+            <GrMail />
+            docteurtop@gmail.com
+          </div>
+          <div className="adresse">
+            <FaMapMarkerAlt />
+            23 Bis rue Habib Thameur Megrine Riadh 2034
+          </div>
+        </div>
+      </div>
       <div className="container-fluid">
         <div className="contact-header"></div>
         <div className="row">
@@ -23,8 +58,8 @@ function Header() {
                 <button
                   className="navbar-toggler"
                   type="button"
-                  onClick={() => alert("sdfsdf")}
-                >
+                  onClick={() =>handleShow}
+                  >
                   <span className="cross-menu">
                     <span className="bar1"></span>
                     <span className="bar2"></span>
@@ -43,7 +78,7 @@ function Header() {
                       <NavLink
                         className="nav-link"
                         to="/cabinet-dentiste-tunisie"
-                      >
+                        >
                         Cabinet
                       </NavLink>
                     </li>
@@ -52,15 +87,12 @@ function Header() {
                       <NavLink
                         className="nav-link"
                         to="/traitement-dentaire-tunisie"
-                      >
+                        >
                         Traitements
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink
-                        className="nav-link"
-                        to="/avant-apres-dentiste"
-                      >
+                      <NavLink className="nav-link" to="/avant-apres-dentiste">
                         Avant et Après
                       </NavLink>
                     </li>
@@ -69,7 +101,7 @@ function Header() {
                       <NavLink
                         className="nav-link"
                         to="/actualite-dentiste-tunisie"
-                      >
+                        >
                         Actualités
                       </NavLink>
                     </li>
@@ -77,7 +109,7 @@ function Header() {
                       <NavLink
                         className="nav-link"
                         to="/question-dentiste-tunisie"
-                      >
+                        >
                         FAQ
                       </NavLink>
                     </li>
@@ -85,28 +117,27 @@ function Header() {
                       <NavLink
                         className="nav-link"
                         to="/contact-dentiste-tunisie"
-                      >
+                        >
                         Contact
                       </NavLink>
                     </li>
                   </ul>
                   {/* <div className="contact-header">
                     <div className="phone-div">
-                      <BsTelephone />
+                    <BsTelephone />
                     </div>
                     <div className="phone-div">
-                      <FiMail />
+                    <FiMail />
                     </div>
                   </div> */}
                 </div>
               </div>
             </nav>
-
-         
           </div>
         </div>
       </div>
     </header>
+                  </>
   );
 }
 
