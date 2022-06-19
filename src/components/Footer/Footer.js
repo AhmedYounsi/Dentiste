@@ -4,7 +4,7 @@ import Logo from "../../assets/img/logo asma2.png"
 
 function Footer() {
   return (
-    <footer className="footer-area">
+    <footer className="footer-area rel">
       <div className="footer-top">
         <div className="container-fluid">
           <div className="row">

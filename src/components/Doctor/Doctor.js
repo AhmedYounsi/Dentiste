@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 function Doctor(props) {
   const navigate= useNavigate()
   return (
-    <section className="our-doctor padding-top-50 padding-bottom-50">
+    <section className="our-doctor padding-top-25 padding-bottom-25">
     <div className="container">
       <div className="row">
        { props.title && <div className="col-lg-12">

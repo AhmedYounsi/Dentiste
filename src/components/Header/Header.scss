@@ -7,12 +7,18 @@ header{
         justify-content: center;
     }
 }
+.offcanvas-header{
+    background-color:#f3f7f9;
+}
+.nav-container{
+    padding: 0 !important;
+}
 
 .contanct-header{
     justify-content: space-around;
     width: 100%;
     height: 40px;
-    background-color: #f3f3f3;
+    background-color:#f3f7f9;
     display: flex;
     font-family: "Montserrat";
     align-items: center;
@@ -39,6 +45,9 @@ header{
 
 .navbar-collapse{
     position: relative;
+}
+.navbar-expand-lg{
+    padding: 0px !important;
 }
 
 .contact-header{
@@ -81,6 +90,24 @@ header{
 .navbar-nav li a{
     padding: 0 15px !important;
 }
+ 
+.responsive-nav{
+    .nav-link {
+        color: #6f6f6f;
+        font-size: 23px;
+        position: relative;
+    }
+  .active{
+      span{
+        width: 28px;
+        height: 2px;
+        background: #9baedb;
+        position: absolute;
+        bottom: 0;
+      }
+  }
+}
+
 
 @media screen and (max-width: 800px){
      .contanct-header{

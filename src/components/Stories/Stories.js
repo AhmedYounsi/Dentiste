@@ -22,7 +22,8 @@ function Stories() {
         </div>
       </div>
       <Carousel
-        pagination={false}
+          itemPadding={[0, 10]}
+       
         breakPoints={breakPoints}
         itemsToShow={2}
       >

@@ -54,7 +54,7 @@
         padding: 0px 30px 0 30px;
     }
     .footer-area .footer-top {
-        padding: 60px 30px 30px 30px;
+        padding: 30px 30px 30px 30px;
     }
     .breadcrumb-area {
         padding-left: 30px;
@@ -946,7 +946,7 @@
             padding-top: 30px;        
         }
         .footer-area .footer-top {
-            padding: 60px 30px 30px 30px;        
+            padding: 30px 30px 30px 30px;        
         }
         .teeth-canel .container, .carousel-right-area.style-02 {
             margin: auto;
@@ -1807,7 +1807,7 @@
 
 @media only screen and (max-width: 414px){   
     .footer-area .footer-top {
-        padding: 60px 0px 30px 0px;
+        padding: 20px 0px 30px 0px;
     }
     .play-area .play-text {
         margin: auto;

@@ -76,6 +76,10 @@ button:active,a:active{
   }
 }
 
+button{
+  box-shadow: none !important;
+}
+
 .appointment-section .appointment-content{
   background: #ffffff8c;
 }
@@ -93,6 +97,7 @@ position: fixed;
     top: 0;
     bottom: 0;
     filter: opacity(0.08);
+    pointer-events: none;
 }
 
 .common-title{
@@ -148,21 +153,27 @@ position: fixed;
     font-size: 20px !important;
   }
 }
-@media (max-width: 1200px)
-{
- 
-.rec-item-wrapper{
-  
-    padding: 15px !important;
-  }
- 
-}
+ .heading{
+   text-align: center;
+ }
+ .row>col{
+   padding: 0 !important;
+ }
 .rel{
   position: relative;
 }
+.krmNah{
+  background-color:#ff9292 !important;
+}
+.jhmYzC{
+  background-color: #ff929257 !important;
+}
 @media (max-width: 600px)
-
 {
+  .breadcrumb-area {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
   .row{
   padding: 0 10px;
 }

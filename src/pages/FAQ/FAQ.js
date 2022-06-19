@@ -22,7 +22,7 @@ function FAQ() {
             <div className="breadcrumb-content">
               <div className="col-12 px-0">
                 <div className="page-title">
-                  <h1 className="heading-1">Questions fréquentes </h1>
+                  <h1 className="heading-2">Questions fréquentes </h1>
                 </div>
               </div>
               <ul className="page-list">

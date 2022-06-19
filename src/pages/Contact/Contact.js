@@ -4,7 +4,9 @@ import RendezVous from "../../components/RendezVous/RendezVous";
 import img_1 from "../../assets/img/icons/telephone-dentiste-tunisie.png";
 import img_2 from "../../assets/img/icons/mail-dentiste-tunisie.png";
 import img_3 from "../../assets/img/icons/adresse-dentiste-tunisie.png";
-
+import { BiTimeFive,BiHandicap } from "react-icons/bi";
+import { FaTrain,FaParking,FaRoad,FaWheelchair } from "react-icons/fa";
+ 
 import "./Contact.scss";
 function Contact() {
   return (
@@ -15,7 +17,7 @@ function Contact() {
             <div className="breadcrumb-content">
               <div className="col-12 px-0">
                 <div className="page-title">
-                  <h1 className="heading-1">Contactez-nous</h1>
+                  <h1 className="heading-2">Contactez-nous</h1>
                 </div>
               </div>
               <ul className="page-list">
@@ -29,7 +31,48 @@ function Contact() {
         </div>
       </section>
       <div className="container pt-4">
-        <div className="row">
+        <div className="horaire row">
+          <div className="desc col-md-6 col-xs-12">
+            <h2 className="heading-3">
+              Cabinet dentiste tunisie <br /> DR Asma Cherif
+            </h2>
+            <p>23 Bis rue Habib Thameur Megrine Riadh 2034</p>
+            <hr />
+            <p><FaRoad />  Accès routièrs</p>
+            <p> <FaTrain /> Train</p>
+            <p> <FaParking />Parking</p>
+            <p><FaWheelchair/> Accessibilité</p>
+          </div>
+          <div className="temps col-md-6 col-xs-12">
+            <div className="jour">
+              <BiTimeFive />
+              <p>Lundi</p>
+              <span>09:00 - 17:00</span>
+            </div>
+            <div className="jour">
+              <BiTimeFive />
+              <p>Mardi</p>
+              <span>09:00 - 17:00</span>
+            </div>
+            <div className="jour">
+              <BiTimeFive />
+              <p>Mercredi</p>
+              <span>09:00 - 17:00</span>
+            </div>
+            <div className="jour">
+              <BiTimeFive />
+              <p>Jeudi</p>
+              <span>09:00 - 17:00</span>
+            </div>
+            <div className="jour">
+              <BiTimeFive />
+              <p>Vendredi</p>
+              <span>09:00 - 17:00</span>
+            </div>
+          </div>
+          
+        </div>
+        {/* <div className="row">
           <div className="col-lg-4 col-md-6">
             <div className="single-couterup contact-items">
               <div className="image">
@@ -69,7 +112,7 @@ function Contact() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <RendezVous />
       <div className="mapouter">

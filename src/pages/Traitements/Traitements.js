@@ -27,7 +27,7 @@ function Traitements() {
             <div className="breadcrumb-content">
               <div className="col-12 px-0">
                 <div className="page-title">
-                  <h1 className="heading-1">Traitement Dentaire Tunisie</h1>
+                  <h1 className="heading-2">Traitement Dentaire Tunisie</h1>
                 </div>
               </div>
               <ul className="page-list">
@@ -63,8 +63,8 @@ function Traitements() {
           <div className="col-lg-12 col-md-12">
             <div className="service-right">
               <div className="row">
-                <Carousel breakPoints={breakPoints} pagination={false} itemsToShow={3}>
-                  <div className="col-md-12 col-sm-12">
+                <Carousel   itemPadding={[10, 10]}   breakPoints={breakPoints}  itemsToShow={3}>
+                 
                     <div
                       style={{ backgroundImage: `url(${Service0})` }}
                       className="service-item service-carousel"
@@ -73,8 +73,7 @@ function Traitements() {
                         <h3>Implantologie</h3>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-12 col-sm-12">
+                 
                     <div
                       style={{ backgroundImage: `url(${Service2})` }}
                       className="service-item service-carousel"
@@ -83,8 +82,8 @@ function Traitements() {
                         <h3>Aligner par gouttière <br /> transparente</h3>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-12 col-sm-12">
+                 
+                 
                     <div
                       style={{ backgroundImage: `url(${Service3})` }}
                       className="service-item service-carousel"
@@ -93,8 +92,7 @@ function Traitements() {
                         <h3> Chirurgie dentaire</h3>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-12 col-sm-12">
+                
                     <div
                       style={{ backgroundImage: `url(${Service4})` }}
                       className="service-item service-carousel"
@@ -103,8 +101,7 @@ function Traitements() {
                         <h3>Facettes dentaires <br /> veneers</h3>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-12 col-sm-12">
+                   
                     <div
                       style={{ backgroundImage: `url(${Service5})` }}
                       className="service-item service-carousel"
@@ -113,8 +110,7 @@ function Traitements() {
                         <h3>Chirurgie <br /> Dent de sagesse</h3>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-md-12 col-sm-12">
+                
                     <div
                       style={{ backgroundImage: `url(${Service6})` }}
                       className="service-item service-carousel"
@@ -123,7 +119,7 @@ function Traitements() {
                         <h3>Bridge <br /> Ceramique - Zircone</h3>
                       </div>
                     </div>
-                  </div>
+                 
                 </Carousel>
               </div>
             </div>

@@ -19,7 +19,7 @@ function Actualites() {
             <div className="breadcrumb-content">
               <div className="col-12 px-0">
                 <div className="page-title">
-                  <h1 className="heading-1">Actualités Dentaires</h1>
+                  <h1 className="heading-2">Actualités Dentaires</h1>
                 </div>
               </div>
               <ul className="page-list">
@@ -37,12 +37,13 @@ function Actualites() {
           <div className="row">
             <div className="col-lg-8">
               <div className="blog-post-single-item">
-                <div className="thumb">
+               
                   <img
+                  className="img-blog"
                     src={require("../../assets/img/blog/sourire-eclatant.jpg")}
                     alt="sourire eclatant dentaire tunisie"
                   />
-                </div>
+               
                 <div className="content">
                   <ul className="post-meta">
                     <li>
@@ -90,12 +91,13 @@ function Actualites() {
                 </div>
               </div>
               <div className="blog-post-single-item">
-                <div className="thumb">
+                
                   <img
+                    className="img-blog"
                     src={require("../../assets/img/blog/dents-taches-cafe-tasse.jpg")}
                     alt="dents taches cafe"
                   />
-                </div>
+              
                 <div className="content">
                   <ul className="post-meta">
                     <li>
@@ -138,12 +140,13 @@ function Actualites() {
                 </div>
               </div>
               <div className="blog-post-single-item">
-                <div className="thumb">
+               
                   <img
+                    className="img-blog"
                     src={require("../../assets/img/blog/detartrage-dentaire-tunisie.jpg")}
                     alt="détartrage dentaire tunisie"
                   />
-                </div>
+               
                 <div className="content">
                   <ul className="post-meta">
                     <li>

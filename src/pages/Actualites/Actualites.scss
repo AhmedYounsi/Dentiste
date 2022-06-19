@@ -26,3 +26,18 @@
     }
 }
 }
+.blog-post-single-item{
+    .img-blog{
+        position: relative;
+        margin-bottom: 25px;
+        border-radius: 30px;
+    }
+    .content{
+        .post-meta{
+            margin: 0;
+        }
+        .title {
+            padding: 0;
+        }
+    }
+}

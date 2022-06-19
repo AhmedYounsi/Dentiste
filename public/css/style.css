@@ -3466,7 +3466,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
     margin: auto;
     text-transform: capitalize; }
   .service .service-left {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 50px; }
     .service .service-left .heading-3 {
       color: var(--heading-color);
@@ -4237,7 +4237,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .footer-area.surgery-footer .subscribe-area .input-group .input-group-append .input-group-text {
     background-color: #3EBCD8; }
   .footer-area .footer-top {
-    padding: 60px 100px 30px 100px; }
+    padding: 30px 100px 30px 100px; }
   .footer-area .logo-widget img {
     margin-bottom: 20px; }
   .footer-area .logo-widget ul li {

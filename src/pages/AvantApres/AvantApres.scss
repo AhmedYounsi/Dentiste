@@ -1,0 +1,21 @@
+.avant-apres {
+  .item {
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+
+    img {
+      border-radius: 27px;
+      width: 100%;
+    }
+  }
+  .item:hover{
+    transform: scale(1.05);
+    z-index: 1;
+    filter: brightness(0.7);
+  }
+  .filters-button-group{
+      text-align: center;
+  }
+}

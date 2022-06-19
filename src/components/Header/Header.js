@@ -1,32 +1,105 @@
 /* eslint-disable */
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 import Logo from "../../assets/img/logo asma2.png";
 import "./Header.scss";
 import { BsTelephoneFill } from "react-icons/bs";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { Button, Offcanvas } from "react-bootstrap";
 
 function Header() {
+  const location = useLocation()
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  useEffect(() => {
+    setShow(false)
+  }, [location.pathname])
   return (
     <>
           <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>
+          <div className="logo-area mt-1">
+              <a href="index.html">
+                <img src={Logo} className="logo_dentiste" alt="Nav Logo" />
+              </a>
+            </div>
+          </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+     
+              <div className="responsive-nav">
+              <ul className="navbar-nav">
+                    <li>
+                      <NavLink className="nav-link" to="/">
+                      <span></span>
+                        Accueil
+                      </NavLink>
+                    </li>
+
+                    <li>
+                      
+                      <NavLink
+                        className="nav-link"
+                        to="/cabinet-dentiste-tunisie"
+                        >
+                          <span></span>
+                        Cabinet
+                      </NavLink>
+                    </li>
+
+                    <li>
+                      <NavLink
+                        className="nav-link"
+                        to="/traitement-dentaire-tunisie"
+                        >
+                           <span></span>
+                        Traitements
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink className="nav-link" to="/avant-apres-dentiste">
+                      <span></span>
+                        Avant et Après
+                      </NavLink>
+                    </li>
+
+                    <li>
+                      <NavLink
+                        className="nav-link"
+                        to="/actualite-dentiste-tunisie"
+                        >
+                           <span></span>
+                        Actualités
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        className="nav-link"
+                        to="/question-dentiste-tunisie"
+                        >
+                           <span></span>
+                        FAQ
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        className="nav-link"
+                        to="/contact-dentiste-tunisie"
+                        >
+                           <span></span>
+                        Contact
+                      </NavLink>
+                    </li>
+                  </ul>
+              </div>
+              
         </Offcanvas.Body>
       </Offcanvas>
-      <Button variant="primary" onClick={handleShow}>
-        Launch
-      </Button>
+    
     <header>
       <div className="contanct-header">
         <div className="contact-content">
@@ -58,7 +131,7 @@ function Header() {
                 <button
                   className="navbar-toggler"
                   type="button"
-                  onClick={() =>handleShow}
+                  onClick={handleShow}
                   >
                   <span className="cross-menu">
                     <span className="bar1"></span>

@@ -20,3 +20,61 @@ iframe{
     position: relative;
     height: 400px;
 }
+
+.horaire{
+    border: 1px solid rgba(133, 150, 167, 0.36);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    .desc{
+        padding: 20px;
+        .heading-3{
+            font-size: 20px;
+            margin: 0;
+        }
+        
+        p{
+            font-size: 20px !important;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            svg{
+                margin-right: 10px;
+                color: #ff8686;
+            }
+        }
+    }
+    .temps{
+        padding: 20px;
+        .jour{
+            display: flex;
+            align-items: center;
+            height: 50px;
+            border-top: 1px solid #80808087;
+            p{
+                margin: 0;
+                font-size: 18px !important;
+            }
+            span{
+                margin-left: auto;
+            }
+            svg{
+                font-size: 25px;
+    color: #ff8686;
+    margin-right: 7px;
+            }
+        }
+        .jour:first-child{
+            border: none;
+        }
+    }
+    .image{
+   padding: 0;
+   img{
+       height: 100%;
+   }
+    }
+}

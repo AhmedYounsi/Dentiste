@@ -4,7 +4,8 @@
     padding-bottom: 60px !important;
 
     .single-couterup{
-        height: 300px;
+        min-height: 300px;
+        max-height: max-content;
         padding: 20px 10px;
     }
 }
