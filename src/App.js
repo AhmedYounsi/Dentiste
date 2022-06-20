@@ -20,7 +20,7 @@ function App() {
   
   return (
     <div>
-      <img src={Back} className="background_app" alt="" />
+      <img src={Back} className="background_app" alt="dnetiste tunisie background" />
       {/* <InfoFixed /> */}
       <Header />
 

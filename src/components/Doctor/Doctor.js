@@ -74,7 +74,7 @@ function Doctor(props) {
                     { props.title && <div className="d-flex mt-4">
                         <div className="main-btn-wrap">
                           <button onClick={()=>navigate("/cabinet-dentiste-tunisie")} className="main-btn">
-                            Voir plus
+                         Découvrire notre cabinet
                           </button>
                         </div>
                       </div>}
