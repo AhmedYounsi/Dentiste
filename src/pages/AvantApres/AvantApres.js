@@ -2,8 +2,13 @@
 import React,{useState} from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import "./AvantApres.scss";
+import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+
 function AvantApres() {
 const [Etat, setEtat] = useState("Tous")
+const before = require("../../assets/img/avant_apres/apres-facette-dentaire-tunisie.jpg")
+const after =  require("../../assets/img/avant_apres/avant-facette-dentaire-tunisie.jpg")
+
   return (
     <div className="avant-apres padding-bottom-50">
       <section className="breadcrumb-area padding-50 mb-3">
@@ -47,25 +52,25 @@ const [Etat, setEtat] = useState("Tous")
             <div className="item">
               <img
                 src={require("../../assets/img/avant_apres/blanchiment-dentaire-avant-apres-min.jpg")}
-                alt=""
+                alt="blanchiment-dentaire-tunisie"
               />
             </div>
             <div className="item">
               <img
                 src={require("../../assets/img/avant_apres/facette-dentaire-avant-apres.jpg")}
-                alt=""
+                alt="facette-dentaire-tunisie"
               />
             </div>
             <div className="item">
               <img
                 src={require("../../assets/img/avant_apres/Implants-dentaires-avant-apres.jpg")}
-                alt=""
+                alt="Implants-dentaires-tunisie"
               />
             </div>
             <div className="item">
               <img
                 src={require("../../assets/img/avant_apres/Facettes-Avant-et-Apres-Dentiste-Paris-Dr-Zarrinpour-Cas-12.jpg")}
-                alt=""
+                alt="facettes-tunisie"
               />
             </div>
             <div className="item">
@@ -77,11 +82,17 @@ const [Etat, setEtat] = useState("Tous")
             <div className="item">
               <img
                 src={require("../../assets/img/avant_apres/dreamstime_xxl_124747064-1024x683.jpg")}
-                alt=""
+                alt="detartrage-densite-tunisie"
               />
             </div>
+         
           </Masonry>
         </ResponsiveMasonry>
+        {/* <ReactCompareSlider
+        className="slider"
+  itemOne={<ReactCompareSliderImage src={after}  alt="Image one" />}
+  itemTwo={<ReactCompareSliderImage src={before} alt="Image two" />}
+/> */}
       </div>
     </div>
   );

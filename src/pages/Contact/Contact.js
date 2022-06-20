@@ -11,7 +11,7 @@ import "./Contact.scss";
 function Contact() {
   return (
     <div>
-      <section className="breadcrumb-area padding-50 mb-3">
+      <section className="breadcrumb-area padding-50">
         <div className="container-fluid">
           <div className="row">
             <div className="breadcrumb-content">
@@ -30,7 +30,7 @@ function Contact() {
           </div>
         </div>
       </section>
-      <div className="container pt-4">
+      <div className="container py-4">
         <div className="horaire row">
           <div className="desc col-md-6 col-xs-12">
             <h2 className="heading-3">

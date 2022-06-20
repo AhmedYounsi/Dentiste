@@ -140,8 +140,8 @@ function Cabine() {
               </div>
             </div>
             <div className="col-lg-5 col-md-12 offset-lg-1">
-              <div className="why-choose-img">
-                <img src={Image} alt="img" />
+              <div className="why-choose-img img-trans">
+                <img src={Image} alt="detartrage dentiste-tunisie" />
               </div>
             </div>
           </div>

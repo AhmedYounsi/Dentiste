@@ -39,7 +39,7 @@ function Actualites() {
               <div className="blog-post-single-item">
                
                   <img
-                  className="img-blog"
+                  className="img-blog "
                     src={require("../../assets/img/blog/sourire-eclatant.jpg")}
                     alt="sourire eclatant dentaire tunisie"
                   />
@@ -142,7 +142,7 @@ function Actualites() {
               <div className="blog-post-single-item">
                
                   <img
-                    className="img-blog"
+                    className="img-blog "
                     src={require("../../assets/img/blog/detartrage-dentaire-tunisie.jpg")}
                     alt="détartrage dentaire tunisie"
                   />
