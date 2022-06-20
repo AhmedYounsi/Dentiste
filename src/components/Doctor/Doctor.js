@@ -37,7 +37,7 @@ function Doctor(props) {
                   <div className="col-lg-6">
                     <div className="doctor-slider-content">
                       <h2 className="heading-4 m-0">
-                        Cabinet du docteur <b>Asma Cherif</b>
+                        Cabinet dentiste <b>Asma Cherif</b>
                       </h2>
                       <h3 className="heading-6">Médecin dentiste principal</h3>
                       <div className="padding-top-30 padding-bottom-0">

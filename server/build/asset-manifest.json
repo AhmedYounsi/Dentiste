@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.d353b648.css",
-    "main.js": "./static/js/main.8b46ec2a.js",
+    "main.css": "./static/css/main.ed9f237b.css",
+    "main.js": "./static/js/main.902c374e.js",
     "static/media/sourire-eclatant.jpg": "./static/media/sourire-eclatant.644769e7e528775105fa.jpg",
     "static/media/densite-tunisie-cabinet.png": "./static/media/densite-tunisie-cabinet.b98bf7ce92405d5cf8e0.png",
     "static/media/chirurgie-dent-de-sagesse.jpg": "./static/media/chirurgie-dent-de-sagesse.209651172d589863a7cc.jpg",
@@ -33,11 +33,11 @@
     "static/media/esthetique-dentaire.jpg": "./static/media/esthetique-dentaire.5e461129b09b77f7abdc.jpg",
     "static/media/telephone-dentiste-tunisie.png": "./static/media/telephone-dentiste-tunisie.9b369305bacbee4f01f7.png",
     "index.html": "./index.html",
-    "main.d353b648.css.map": "./static/css/main.d353b648.css.map",
-    "main.8b46ec2a.js.map": "./static/js/main.8b46ec2a.js.map"
+    "main.ed9f237b.css.map": "./static/css/main.ed9f237b.css.map",
+    "main.902c374e.js.map": "./static/js/main.902c374e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d353b648.css",
-    "static/js/main.8b46ec2a.js"
+    "static/css/main.ed9f237b.css",
+    "static/js/main.902c374e.js"
   ]
 }

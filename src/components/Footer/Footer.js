@@ -37,7 +37,7 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-3">
               <div className="footer-widget widget widget_nav_menu">
-                <h4 className="widget-title">Liens internes</h4>
+                <p className="widget-title">Liens internes</p>
                 <ul>
                   <li>
                     <a href="#">Présentation</a>
@@ -59,7 +59,7 @@ function Footer() {
             </div>
             <div className="col-lg-3 col-md-3">
               <div className="footer-widget widget widget_nav_menu">
-                <h4 className="widget-title">Liens utiles</h4>
+                <p className="widget-title">Liens utiles</p>
                 <ul>
                   <li>
                     <a href="#">Ordre des Chirurgiens Dentistes </a>

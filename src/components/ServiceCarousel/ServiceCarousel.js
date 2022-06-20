@@ -36,8 +36,7 @@ function ServiceCarousel() {
                   <p>
                     Nous vous garantissons des <b>traitements dentaires</b>{" "}
                     adaptés à vos besoins, <br /> prodigués par le docteur{" "}
-                    <b>Asma Cherif</b>, au prix le plus juste et avec une prise
-                    en charge rapide, complète et personnalisée. <br />
+                    <b>Asma Cherif</b>, au prix le plus juste. <br />
                     Ces <b>traitements dentaires</b> vous permettront de
                     conserver ou de rétablir une bonne santé
                   </p>
