@@ -13,11 +13,10 @@ function Home() {
   return (
     <>
       <br />
-      <Helmet>
+      <Helmet htmlAttributes={{ lang: 'fr' }}>
         <meta charSet="utf-8" />
         <title>
-          Dentiste tunisie cabinet | chirurgien dentiste tunisie | cabient
-          dentiste tunisie
+          Dentiste tunisie cabinet | dentiste chirurgien tunisie
         </title>
         <meta
           name="description"
