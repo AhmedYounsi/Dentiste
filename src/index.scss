@@ -79,6 +79,13 @@ button:active,a:active{
 button{
   box-shadow: none !important;
 }
+.primary-button{
+  color: #FFFFFF;
+    background: rgba(255, 134, 134, 0.9);
+    border-radius: 45px;
+    padding: 16px 22px;
+    font-size: 16px;
+}
 
 .appointment-section .appointment-content{
   background: #ffffff8c;
