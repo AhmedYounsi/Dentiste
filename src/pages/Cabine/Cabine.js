@@ -34,11 +34,11 @@ function Cabine() {
       <Doctor title={false} />
       <div className="container p-3 rel">
         <div className="why-choose-content ">
-        <div className="col-lg-12">
-              <div className="common-title padding-bottom-40">
-                <h2 className="heading">Expérience professionnelle</h2>
-              </div>
+          <div className="col-lg-12">
+            <div className="common-title padding-bottom-40">
+              <h2 className="heading">Expérience professionnelle</h2>
             </div>
+          </div>
           <div className="valeur-area">
             <div className="exp-single">
               <div className="line"></div>
@@ -51,9 +51,8 @@ function Cabine() {
                 <span>Docteur en médcine dentaire</span>
               </div>
             </div>
-           
             <div className="exp-single">
-            <div className="line"></div>
+              <div className="line"></div>
               <FaRegDotCircle />
               <div className="exp-title">
                 <div className="year">
@@ -66,7 +65,7 @@ function Cabine() {
             <div className="exp-single">
               <FaRegDotCircle />
               <div className="exp-title">
-              <div className="line"></div>
+                <div className="line"></div>
                 <div className="year">
                   <p>Hôpital Charles Nicolle</p>
                   <b>1993 - 2005</b>
@@ -77,7 +76,7 @@ function Cabine() {
             <div className="exp-single">
               <FaRegDotCircle />
               <div className="exp-title">
-              <div className="line"></div>
+                <div className="line"></div>
                 <div className="year">
                   <p>Cabinet privée au Bardo</p>
                   <b>1990 - 1993</b>
@@ -87,7 +86,7 @@ function Cabine() {
             <div className="exp-single">
               <FaRegDotCircle />
               <div className="exp-title">
-              <div className="line"></div>
+                <div className="line"></div>
                 <div className="year">
                   <p>L’hôpital régional Ben Arous</p>
                   <b>2005 - 2010</b>
