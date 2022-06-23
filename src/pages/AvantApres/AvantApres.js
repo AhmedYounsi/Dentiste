@@ -1,13 +1,74 @@
 /* eslint-disable */
-import React,{useState} from "react";
+import React, { useState, useEffect } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import "./AvantApres.scss";
-import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+import {
+  ReactCompareSlider,
+  ReactCompareSliderImage,
+} from "react-compare-slider";
 
 function AvantApres() {
-const [Etat, setEtat] = useState("Tous")
-const before = require("../../assets/img/avant_apres/apres-facette-dentaire-tunisie.jpg")
-const after =  require("../../assets/img/avant_apres/avant-facette-dentaire-tunisie.jpg")
+  const [Etat, setEtat] = useState("tous");
+  const [FilterRef, setFilterRef] = useState([])
+  const before = require("../../assets/img/avant_apres/apres-facette-dentaire-tunisie.jpg");
+  const after = require("../../assets/img/avant_apres/avant-facette-dentaire-tunisie.jpg");
+
+
+
+  const AllRefs = [
+    {
+      id: 1,
+      title: "Blanchiment dentaire",
+      category: "blanchiment",
+      img: require("../../assets/img/avant_apres/blanchiment-dentaire-avant-apres-min.jpg"),
+    },
+    {
+      id: 2,
+      title: "Facette dentaire",
+      category: "facettes",
+      img: require("../../assets/img/avant_apres/facette-dentaire-avant-apres.jpg"),
+    },
+    {
+      id: 3,
+      title: "Implants dentaires",
+      category: "implantologie",
+      img: require("../../assets/img/avant_apres/Implants-dentaires-avant-apres.jpg"),
+    },
+    {
+      id: 4,
+      title: "Facette dentaire",
+      category: "facettes",
+      img: require("../../assets/img/avant_apres/Facettes-Dentiste-tunisie-12.jpg"),
+    },
+    {
+      id: 5,
+      title: "Implants dentaires",
+      category: "implantologie",
+      img: require("../../assets/img/avant_apres/dents-complet.jpg"),
+    },
+    {
+      id: 6,
+      title: "Blanchiment dentaire",
+      category: "blanchiment",
+      img: require("../../assets/img/avant_apres/blanchiment-dentaire-tunisie.jpg"),
+    },
+  ];
+
+  useEffect(() => {
+   setFilterRef(AllRefs)
+  }, [])
+  
+
+
+  useEffect(() => {
+    if(Etat == 'tous'){
+      setFilterRef(AllRefs)
+      return
+    }
+    var arr = AllRefs.filter(el => el.category == Etat)
+    setFilterRef(arr)
+    
+  }, [Etat]);
 
   return (
     <div className="avant-apres padding-bottom-50">
@@ -38,54 +99,55 @@ const after =  require("../../assets/img/avant_apres/avant-facette-dentaire-tuni
         </div>
         <div className="horizontal-scroll mb-3">
           <ul className="button-group filters-button-group">
-            <li onClick={() => setEtat('Tous')} className={"button "+ ( Etat == "Tous" ? "is-checked" : "")}>Tous</li>
-            <li onClick={() => setEtat('Blanchiment')}  className={"button "+ ( Etat == "Blanchiment" ? "is-checked" : "")}>Blanchiment</li>
-            <li onClick={() => setEtat('Implantologie')}  className={"button "+ ( Etat == "Implantologie" ? "is-checked" : "")}>Implantologie</li>
-            <li onClick={() => setEtat('Brigde')}  className={"button "+ ( Etat == "Brigde" ? "is-checked" : "")}>Brigde</li>
-            <li onClick={() => setEtat('Facettes')} className={"button "+ ( Etat == "Facettes" ? "is-checked" : "")}>Facettes</li>
+            <li
+              onClick={() => setEtat("tous")}
+              className={"button " + (Etat == "tous" ? "is-checked" : "")}
+            >
+              Tous
+            </li>
+            <li
+              onClick={() => setEtat("blanchiment")}
+              className={
+                "button " + (Etat == "blanchiment" ? "is-checked" : "")
+              }
+            >
+              Blanchiment
+            </li>
+            <li
+              onClick={() => setEtat("implantologie")}
+              className={
+                "button " + (Etat == "implantologie" ? "is-checked" : "")
+              }
+            >
+              Implantologie
+            </li>
+            <li
+              onClick={() => setEtat("brigde")}
+              className={"button " + (Etat == "brigde" ? "is-checked" : "")}
+            >
+              Brigde
+            </li>
+            <li
+              onClick={() => setEtat("facettes")}
+              className={"button " + (Etat == "facettes" ? "is-checked" : "")}
+            >
+              Facettes
+            </li>
           </ul>
         </div>
         <ResponsiveMasonry
           columnsCountBreakPoints={{ 350: 1, 600: 2, 1000: 3 }}
         >
           <Masonry>
-            <div className="item">
-              <img
-                src={require("../../assets/img/avant_apres/blanchiment-dentaire-avant-apres-min.jpg")}
-                alt="blanchiment-dentaire-tunisie"
-              />
-            </div>
-            <div className="item">
-              <img
-                src={require("../../assets/img/avant_apres/facette-dentaire-avant-apres.jpg")}
-                alt="facette-dentaire-tunisie"
-              />
-            </div>
-            <div className="item">
-              <img
-                src={require("../../assets/img/avant_apres/Implants-dentaires-avant-apres.jpg")}
-                alt="Implants-dentaires-tunisie"
-              />
-            </div>
-            <div className="item">
-              <img
-                src={require("../../assets/img/avant_apres/Facettes-Avant-et-Apres-Dentiste-Paris-Dr-Zarrinpour-Cas-12.jpg")}
-                alt="facettes-tunisie"
-              />
-            </div>
-            <div className="item">
-              <img
-                src={require("../../assets/img/avant_apres/dents-complet.jpg")}
-                alt=""
-              />
-            </div>
-            <div className="item">
-              <img
-                src={require("../../assets/img/avant_apres/dreamstime_xxl_124747064-1024x683.jpg")}
-                alt="detartrage-densite-tunisie"
-              />
-            </div>
-         
+            {FilterRef.map((el, index) => {
+              return <div key={index} className="item">
+                <img
+                  src={el.img}
+                  alt="detartrage-densite-tunisie"
+                />
+                <h3 className="titre-ref"> {el.title} </h3>
+              </div>;
+            })}
           </Masonry>
         </ResponsiveMasonry>
         {/* <ReactCompareSlider
