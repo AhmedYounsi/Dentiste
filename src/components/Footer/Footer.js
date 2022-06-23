@@ -10,9 +10,9 @@ function Footer() {
           <div className="row">
             <div className="col-lg-6 col-md-6">
               <div className="footer-widget widget logo-widget">
-                <a href="index.html">
+                 
                   <img src={Logo} alt="Nav Logo" style={{width:130}} />
-                </a>
+               
                 <ul>
                   <li>
                     <span className="icon">

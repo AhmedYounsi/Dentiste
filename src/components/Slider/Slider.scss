@@ -80,4 +80,18 @@ height: 76vh;
   }
   
 }
+@media (min-width: 1600px)
+{
+  .slider-content{
+    .slider-heading{
+      font-size: 60px !important;
+    }
+    h2{
+      font-size: 42px !important;
+    }
+    p{
+      font-size: 22px !important;
+    }
+  }
+}
 

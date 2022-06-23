@@ -136,7 +136,9 @@ header {
 }
 
 @media screen and (min-width: 1400px) {
-
+    .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
+        font-size: 19px !important;
+      }
     .header-area,
     .contact-content {
         max-width: 1400px !important;
@@ -146,6 +148,6 @@ header {
         font-size: 18px;
     }
     .logo_dentiste {
-        width: 185px !important;
+        width: 165px !important;
     }
 }

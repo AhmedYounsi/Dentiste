@@ -1,23 +1,38 @@
-.coundown-section{
+.coundown-section {
     background: #25507d0d;
     padding-top: 50px !important;
     padding-bottom: 60px !important;
 
-    .single-couterup{
+    .single-couterup {
         min-height: 300px;
         max-height: max-content;
         padding: 20px 10px;
         background: #f3f7f9;
-    position: relative;
+        position: relative;
     }
 }
 
-.valeur-title{
+.valeur-title {
     font-size: 20px !important;
     font-weight: 600;
 }
-.valeur-text{
+
+.valeur-text {
     font-size: 18px;
     color: #959595;
-    
+
+}
+
+
+
+@media (min-width: 1400px) {
+    .valeur-title {
+        font-size: 24px !important;
+    }
+
+    .valeur-text {
+        font-size: 22px !important;
+
+
+    }
 }

@@ -23,9 +23,11 @@ function Header() {
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>
           <div className="logo-area mt-1">
-              <a href="index.html">
-                <img src={Logo} className="logo_dentiste" alt="Nav Logo" />
-              </a>
+          <NavLink   to="/">
+          <img src={Logo} className="logo_dentiste" alt="Nav Logo" />
+        
+                      </NavLink>
+             
             </div>
           </Offcanvas.Title>
         </Offcanvas.Header>
@@ -122,9 +124,10 @@ function Header() {
         <div className="row">
           <div className="header-area">
             <div className="logo-area mt-1">
-              <a href="index.html">
-                <img src={Logo} className="logo_dentiste" alt="Nav Logo" />
-              </a>
+            <NavLink   to="/">
+          <img src={Logo} className="logo_dentiste" alt="Nav Logo" />
+        
+                      </NavLink>
             </div>
             <nav className="navbar navbar-area navbar-expand-lg">
               <div className="container nav-container">

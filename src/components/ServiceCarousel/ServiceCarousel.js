@@ -15,7 +15,7 @@ function ServiceCarousel() {
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2 },
     { width: 850, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 },
+    { width: 1500, itemsToShow: 4 },
   ];
   return (
     <section id="service" className="service padding-top-25 padding-bottom-25">

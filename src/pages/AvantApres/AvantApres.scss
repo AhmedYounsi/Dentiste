@@ -44,3 +44,14 @@
   border-radius: 39px;
   max-width: 500px;
 }
+
+
+
+
+@media screen and (min-width: 1400px) {
+  .filters-button-group{
+    li{
+      font-size: 22px !important;
+    }
+  }
+}

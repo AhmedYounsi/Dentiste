@@ -34,9 +34,11 @@ function Cabine() {
       <Doctor title={false} />
       <div className="container p-3 rel">
         <div className="why-choose-content ">
-          <div className="common-title padding-bottom-30">
-            <h2 className="heading line-none">Expérience professionnelle</h2>
-          </div>
+        <div className="col-lg-12">
+              <div className="common-title padding-bottom-40">
+                <h2 className="heading">Expérience professionnelle</h2>
+              </div>
+            </div>
           <div className="valeur-area">
             <div className="exp-single">
               <div className="line"></div>
