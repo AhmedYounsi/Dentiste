@@ -22,9 +22,8 @@ function Cabine() {
           content="dentiste tunisie vous aide a trouver un cabient dentiste en tunisien et de prendre une consultation qui vous gagantie des traitements dentaires"
         />
       </Helmet>
-      <section className="breadcrumb-area padding-50">
-        <div className="container-fluid">
-          <div className="row">
+      <section className="breadcrumb-area">
+       
             <div className="breadcrumb-content">
               <div className="col-12 px-0">
                 <div className="page-title">
@@ -38,8 +37,7 @@ function Cabine() {
                 <li>Cabinet</li>
               </ul>
             </div>
-          </div>
-        </div>
+       
       </section>
 
       <Doctor title={false} />

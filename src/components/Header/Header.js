@@ -82,7 +82,7 @@ function Header() {
         </Offcanvas.Body>
       </Offcanvas>
 
-      <header>
+      <header className="header">
         <div className="contanct-header">
           <div className="header-navbar">
             <div className="tel">

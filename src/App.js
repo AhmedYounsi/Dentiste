@@ -17,7 +17,22 @@ function App() {
   useEffect(() => {
  window.scrollTo(0,0)
   }, [location.pathname])
-  
+ 
+useEffect(() => {
+  window.onscroll = function (e) {
+    const element = document.querySelector(".header");
+    const route = document.querySelector(".header");
+    if(window.scrollY > 110){
+     element.classList.add("scrolled-header");
+    }
+    else{
+      element.classList.remove("scrolled-header");
+    }
+};
+
+}, [])
+
+   
   return (
     <div>
       <img src={Back} className="background_app" alt="dnetiste tunisie background" />
