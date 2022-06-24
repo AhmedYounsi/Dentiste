@@ -32,7 +32,8 @@ function Slider() {
                   <h1 className="slider-heading">
                     Cabinet Dentiste Tunisie
                   </h1>
-                  <h2 className='m-0'> Le meilleur cabinet dentaire en tunisie, Pour tous !</h2>
+                  <h2 className='m-0'> Le meilleur cabinet dentaire en tunisie</h2>
+                  <h2> Pour tous !</h2>
                   <div className="padding-10 header-text">
                     <p>
                       Prenez un rendez-vous avec l’un des spécialisés dans la

@@ -84,7 +84,7 @@ function Header() {
 
       <header>
         <div className="contanct-header">
-          <div className="contact-content ">
+          <div className="header-navbar">
             <div className="tel">
               <BsTelephoneFill />
               54 339 924 - 71 432 393
@@ -99,10 +99,8 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="container-fluid">
-          <div className="contact-header"></div>
-          <div className="row">
-            <div className="header-area">
+      
+            <div className="header-navbar">
               <div className="logo-area mt-1">
                 <NavLink to="/">
                   <img src={Logo} className="logo_dentiste" alt="Nav Logo" />
@@ -111,7 +109,7 @@ function Header() {
               <nav className="navbar navbar-area navbar-expand-lg">
                 <div className="container nav-container">
                   <button
-                    className="navbar-toggler"
+                    className="menu-btn"
                     type="button"
                     onClick={handleShow}
                   >
@@ -176,27 +174,19 @@ function Header() {
                       </li>
                       <li>
                         <NavLink
-                          className="nav-link"
+                          className="nav-link pr-0"
                           to="/contact-dentiste-tunisie"
                         >
                           Contact
                         </NavLink>
                       </li>
                     </ul>
-                    {/* <div className="contact-header">
-                    <div className="phone-div">
-                    <BsTelephone />
-                    </div>
-                    <div className="phone-div">
-                    <FiMail />
-                    </div>
-                  </div> */}
+                   
                   </div>
                 </div>
               </nav>
             </div>
-          </div>
-        </div>
+         
       </header>
     </>
   );

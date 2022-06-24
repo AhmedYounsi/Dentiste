@@ -2423,7 +2423,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
         color: #626262;
         font-weight: 500;
         letter-spacing: .5px;
-        padding: 0 1.3rem;
+        padding: 0 15px;
         font-family: var(--heading-font);
         -webkit-transition: all 0.3s ease-in;
         -moz-transition: all 0.3s ease-in;

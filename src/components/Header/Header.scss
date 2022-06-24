@@ -3,14 +3,38 @@ header {
     background: white;
     position: relative;
     box-shadow: 0 0 5px #d5d5d5;
-
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
     .row {
         justify-content: center;
     }
+    .header-navbar:first-child{
+        height: 40px;
+    }
+    .header-navbar:nth-child(2){
+        height: 80px;
+    }
+    .header-navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 50px;
+        width: 100%;
+        margin: auto;
+    }
 }
-
+ .pr-0{
+     padding-right: 0px !important;
+ }
+.offcanvas{
+z-index: 100;
+}
 .offcanvas-header {
     background-color: #f3f7f9;
+    padding: 12px 10px;
 }
 
 .nav-container {
@@ -98,9 +122,7 @@ header {
 }
 
 
-.navbar-nav li a {
-    padding: 0 15px !important;
-}
+ 
 
 .responsive-nav {
     .nav-link {
@@ -121,14 +143,26 @@ header {
 }
 
 
+@media screen and (min-width: 992px) {
+.menu-btn{
+    display: none;
+}
+}
 @media screen and (max-width: 800px) {
     .contanct-header {
         display: none !important;
     }
+    .header-navbar{
+      
+        padding: 10px 20px !important;
+    
+    }
 }
 
 @media screen and (min-width: 1200px) {
-
+    .header-navbar{
+        max-width: 1200px;
+    }
     .header-area,
     .contact-content {
         max-width: 1200px !important;
@@ -136,6 +170,9 @@ header {
 }
 
 @media screen and (min-width: 1400px) {
+    .header-navbar{
+        max-width: 1400px;
+    }
     .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
         font-size: 19px !important;
       }

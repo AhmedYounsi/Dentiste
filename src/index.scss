@@ -39,6 +39,7 @@ code {
 
 .routes {
   min-height: 100vh;
+  margin-top: 127px;
 }
 
 button:active,
@@ -115,7 +116,7 @@ button {
 
 .service-div {
   position: absolute;
-  z-index: 10000;
+  z-index: 9;
   bottom: 20px;
   background: #ffffffba;
   width: 100%;
@@ -156,7 +157,15 @@ button {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.carousel-item{
+  .row{
+    justify-content: center;
+  }
+}
 @media (min-width: 1600px) {
+  .dentiste-img{
+    width: 40% !important;
+  }
   .container {
     max-width: 1600px !important;
   }
@@ -181,6 +190,12 @@ button {
   background-color: #ff929257 !important;
 }
 
+@media (max-width: 800px) {
+  .routes {
+   
+    margin-top: 65px !important;
+  }
+}
 @media (max-width: 600px) {
   .paddind-section{
     padding-top: 25px;

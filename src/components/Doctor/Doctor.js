@@ -27,7 +27,7 @@ function Doctor(props) {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="row">
-                    <div className="col-md-5 col-lg-6">
+                    <div className="col-md-5 col-lg-6 dentiste-img">
                       <div className="doctor-slider-img">
                         <img
                           src={props.title ? DoctorImage : CabinetImage}
