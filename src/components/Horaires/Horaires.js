@@ -1,5 +1,5 @@
 import React from "react";
-import { BiTimeFive, BiHandicap } from "react-icons/bi";
+import { BiTimeFive } from "react-icons/bi";
 import { FaTrain, FaParking, FaRoad, FaWheelchair } from "react-icons/fa";
 function Horaires() {
   return (

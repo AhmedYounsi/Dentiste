@@ -8,9 +8,20 @@ import { BsCheck2Square } from "react-icons/bs";
 import { FaRegDotCircle } from "react-icons/fa";
 
 import "./Cabine.scss";
+import Helmet from "react-helmet";
 function Cabine() {
   return (
     <div className="">
+      <Helmet htmlAttributes={{ lang: 'fr' }}>
+        <meta charSet="utf-8" />
+        <title>
+         Cabinet dentiste tunisie | Asma cherif chirurgien dentiste
+        </title>
+        <meta
+          name="description"
+          content="dentiste tunisie vous aide a trouver un cabient dentiste en tunisien et de prendre une consultation qui vous gagantie des traitements dentaires"
+        />
+      </Helmet>
       <section className="breadcrumb-area padding-50">
         <div className="container-fluid">
           <div className="row">
