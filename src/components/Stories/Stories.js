@@ -15,7 +15,7 @@ function Stories() {
     { width: 1400, itemsToShow: 3 },
   ];
   return (
-    <div className="container stories">
+    <div className="container stories paddind-section">
       <div className="col-lg-12">
         <div className="common-title padding-bottom-40">
           <h2 className="heading">Nos Derniers Articles</h2>

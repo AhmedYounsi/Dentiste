@@ -5,7 +5,7 @@ import img_4 from "../../assets/img/icons/icon_centres.png";
 import './DetailsCabinet.scss'
 function DetailsCabinet() {
   return (
-    <section className="coundown-section  p-4">
+    <section className="paddind-section">
       <div className="container">
     
       <div className="col-lg-12">
@@ -17,7 +17,7 @@ function DetailsCabinet() {
           
           <div className="col-lg-4 col-md-6">
             <div className="single-couterup">
-              <div className="icon" style={{ overflow: "hidden" }}>
+              <div className="icon">
                 <img src={img_1} alt="img" />
               </div>
               <div className="content">

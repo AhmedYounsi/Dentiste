@@ -18,12 +18,12 @@ function ServiceCarousel() {
     { width: 1500, itemsToShow: 4 },
   ];
   return (
-    <section id="service" className="service padding-top-25 padding-bottom-25">
+    <section id="service" className="service paddind-section">
       <div className="container-fluid">
         <div className="container">
           <div className="row ">
             <div className="col-lg-12 col-md-12">
-              <div className="service-left">
+              <div className="service-left pt-0">
                 <div className="col-lg-12">
                   <div className="common-title padding-bottom-40">
                     <h2 className="heading">Traitements Dentaires</h2>

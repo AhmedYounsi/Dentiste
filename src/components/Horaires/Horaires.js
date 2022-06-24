@@ -3,7 +3,7 @@ import { BiTimeFive, BiHandicap } from "react-icons/bi";
 import { FaTrain, FaParking, FaRoad, FaWheelchair } from "react-icons/fa";
 function Horaires() {
   return (
-    <div className="container py-4">
+    <div className="container paddind-section">
       <div className="horaire row">
         <div className="desc col-md-6 col-xs-12">
           <h2 className="heading-3">

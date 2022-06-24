@@ -8,7 +8,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 function Doctor(props) {
   const navigate = useNavigate();
   return (
-    <section className="our-doctor padding-top-25 padding-bottom-25">
+    <section className="our-doctor paddind-section">
       <div className="container">
         <div className="row">
           {props.title && (
@@ -27,7 +27,7 @@ function Doctor(props) {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="row">
-                    <div className="col-lg-6">
+                    <div className="col-md-5 col-lg-6">
                       <div className="doctor-slider-img">
                         <img
                           src={props.title ? DoctorImage : CabinetImage}
@@ -36,7 +36,7 @@ function Doctor(props) {
                         />
                       </div>
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-md-7 col-lg-6">
                       <div className="doctor-slider-content">
                         <h2 className="heading-4 m-0">
                           Cabinet dentiste <b>Asma Cherif</b>

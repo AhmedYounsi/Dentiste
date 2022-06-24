@@ -54,39 +54,6 @@ a:active {
   }
 }
 
-.appointment {
-  flex: 1;
-  padding: 20px;
-
-  h6 {
-    margin-bottom: 25px;
-  }
-
-  .form_rdv {
-    display: flex;
-  }
-
-  input {
-    border: 1px solid #c7c7c7;
-    height: 50px;
-    width: 50%;
-    border-radius: 30px;
-    padding-left: 20px;
-  }
-
-  .input_mail {
-    width: 80%;
-  }
-
-  button {
-    font-size: 15px;
-    border-radius: 40px;
-    font-weight: 400;
-    padding: 15px 20px;
-    color: #FFFFFF;
-    background: rgba(255, 134, 134, 0.9);
-  }
-}
 
 button {
   box-shadow: none !important;
@@ -185,7 +152,10 @@ button {
     font-size: 20px !important;
   }
 }
-
+.paddind-section{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 @media (min-width: 1600px) {
   .container {
     max-width: 1600px !important;
@@ -212,6 +182,10 @@ button {
 }
 
 @media (max-width: 600px) {
+  .paddind-section{
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
   .breadcrumb-area {
     padding-left: 0 !important;
     padding-right: 0 !important;
