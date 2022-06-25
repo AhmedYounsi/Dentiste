@@ -9,11 +9,9 @@ import {
 
 function AvantApres() {
   const [Etat, setEtat] = useState("tous");
-  const [FilterRef, setFilterRef] = useState([])
+  const [FilterRef, setFilterRef] = useState([]);
   const before = require("../../assets/img/avant_apres/apres-facette-dentaire-tunisie.jpg");
   const after = require("../../assets/img/avant_apres/avant-facette-dentaire-tunisie.jpg");
-
-
 
   const AllRefs = [
     {
@@ -55,40 +53,33 @@ function AvantApres() {
   ];
 
   useEffect(() => {
-   setFilterRef(AllRefs)
-  }, [])
-  
-
+    setFilterRef(AllRefs);
+  }, []);
 
   useEffect(() => {
-    if(Etat == 'tous'){
-      setFilterRef(AllRefs)
-      return
+    if (Etat == "tous") {
+      setFilterRef(AllRefs);
+      return;
     }
-    var arr = AllRefs.filter(el => el.category == Etat)
-    setFilterRef(arr)
-    
+    var arr = AllRefs.filter((el) => el.category == Etat);
+    setFilterRef(arr);
   }, [Etat]);
 
   return (
     <div className="avant-apres padding-bottom-50">
-      <section className="breadcrumb-area padding-50 mb-3">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="breadcrumb-content">
-              <div className="col-12 px-0">
-                <div className="page-title">
-                  <h1 className="heading-2">Avant et Après</h1>
-                </div>
-              </div>
-              <ul className="page-list">
-                <li>
-                  <a href="index.html">Accueil</a>
-                </li>
-                <li>Avant et après</li>
-              </ul>
+      <section className="breadcrumb-area">
+        <div className="breadcrumb-content">
+          <div className="col-12 px-0">
+            <div className="page-title">
+              <h1 className="heading-2">Resultat Cabinet</h1>
             </div>
           </div>
+          <ul className="page-list">
+            <li>
+              <a href="index.html">Accueil</a>
+            </li>
+            <li>Avant Après</li>
+          </ul>
         </div>
       </section>
       <div className="container  py-4">
@@ -140,13 +131,12 @@ function AvantApres() {
         >
           <Masonry>
             {FilterRef.map((el, index) => {
-              return <div key={index} className="item">
-                <img
-                  src={el.img}
-                  alt="detartrage-densite-tunisie"
-                />
-                <h3 className="titre-ref"> {el.title} </h3>
-              </div>;
+              return (
+                <div key={index} className="item">
+                  <img src={el.img} alt="detartrage-densite-tunisie" />
+                  <h3 className="titre-ref"> {el.title} </h3>
+                </div>
+              );
             })}
           </Masonry>
         </ResponsiveMasonry>

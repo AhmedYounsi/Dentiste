@@ -13,23 +13,19 @@ function Actualites() {
           content="dentiste tunisie Il s'agit d'un blog concernant: chirurgien dentiste, orthodontiste, prothésiste dentaire ou encore assistant dentaire,détartrage..."
         />
       </Helmet>
-      <section className="breadcrumb-area padding-50 mb-3">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="breadcrumb-content">
-              <div className="col-12 px-0">
-                <div className="page-title">
-                  <h1 className="heading-2">Actualités Dentaires</h1>
-                </div>
-              </div>
-              <ul className="page-list">
-                <li>
-                  <a href="index.html">Accueil</a>
-                </li>
-                <li>Actualités</li>
-              </ul>
+      <section className="breadcrumb-area">
+        <div className="breadcrumb-content">
+          <div className="col-12 px-0">
+            <div className="page-title">
+              <h1 className="heading-2">Actialités Dentiste</h1>
             </div>
           </div>
+          <ul className="page-list">
+            <li>
+              <a href="index.html">Accueil</a>
+            </li>
+            <li>Actialités</li>
+          </ul>
         </div>
       </section>
       <div className="blog-page-content padding-50">

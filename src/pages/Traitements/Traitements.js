@@ -18,28 +18,24 @@ function Traitements() {
   ]
   return (
     <div className=''>
-      <section
-        className="breadcrumb-area padding-50 "
+       <section className="breadcrumb-area">
+       
+       <div className="breadcrumb-content">
+         <div className="col-12 px-0">
+           <div className="page-title">
+           <h1 className="heading-2">Traitements Dentaire Tunisie</h1>
+           </div>
+         </div>
+         <ul className="page-list">
+           <li>
+             <a href="index.html">Accueil</a>
+           </li>
+           <li>Traitements</li>
+         </ul>
+       </div>
+  
+ </section>
 
-      >
-        <div className="container-fluid">
-          <div className="row">
-            <div className="breadcrumb-content">
-              <div className="col-12 px-0">
-                <div className="page-title">
-                  <h1 className="heading-2">Traitement Dentaire Tunisie</h1>
-                </div>
-              </div>
-              <ul className="page-list">
-                <li>
-                  <a href="index.html">Accueil</a>
-                </li>
-                <li>Traitement</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
       <section className="coundown-section">
         <div className="container">
 

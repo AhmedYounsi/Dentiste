@@ -10,31 +10,26 @@ function FAQ() {
   const [ShowItem, setShowItem] = useState(null)
 
 
-  const Show =(n) =>{
-    return 'show'
-     if(ShowItem == n) return "show"
-  }
+   
   return (
     <div className="">
-      <section className="breadcrumb-area padding-50">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="breadcrumb-content">
-              <div className="col-12 px-0">
-                <div className="page-title">
-                  <h1 className="heading-2">Questions fréquentes </h1>
-                </div>
-              </div>
-              <ul className="page-list">
-                <li>
-                  <a href="index.html">Accueil</a>
-                </li>
-                <li>FAQ</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
+          <section className="breadcrumb-area">
+       
+       <div className="breadcrumb-content">
+         <div className="col-12 px-0">
+           <div className="page-title">
+           <h1 className="heading-2">Questions fréquentes</h1>
+           </div>
+         </div>
+         <ul className="page-list">
+           <li>
+             <a href="index.html">Accueil</a>
+           </li>
+           <li>FAQ</li>
+         </ul>
+       </div>
+  
+ </section>
       {/* <div className="col-lg-12 mt-5">
             <div className="common-title">
               <h2 className="heading">Foire aux questions</h2>
