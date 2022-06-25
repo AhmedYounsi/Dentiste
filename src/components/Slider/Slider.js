@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React, { useState } from 'react'
 import SliderImg from "../../assets/img/densite-tunisie-cabinet.webp"
-import SliderImg2 from "../../assets/img/dentiste-tunisie-traitement.jpg"
+import SliderImg2 from "../../assets/img/dentiste-tunisie-traitement.webp"
  import "./Slider.scss"
 import { IoIosArrowDroprightCircle, IoIosArrowDropleftCircle } from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
