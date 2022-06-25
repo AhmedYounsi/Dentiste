@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React, { useState, useEffect } from "react";
-import Image from "../../assets/img/cabinet-dentiste-rendez-vous.jpg";
+import Image from "../../assets/img/cabinet-dentiste-tunisie-image.jpg";
 import "./RDV.scss";
 import { Alert } from "react-bootstrap";
 import Button from "react-bootstrap/Button";

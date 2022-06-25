@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import SliderImg from "../../assets/img/densite-tunisie-cabinet.png"
 import SliderImg2 from "../../assets/img/dentiste-tunisie-traitement.jpg"
-import "./Slider.scss"
+ import "./Slider.scss"
 import { IoIosArrowDroprightCircle, IoIosArrowDropleftCircle } from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
 

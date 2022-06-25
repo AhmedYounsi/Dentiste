@@ -1,4 +1,6 @@
 .valeur-area {
+  max-width: 800px;
+
   p {
     font-size: 20px !important;
     margin-bottom: 30px !important;
@@ -10,7 +12,9 @@
     }
   }
 }
-
+.m-auto{
+  margin: auto;
+}
 .valeur-area {
 
   .exp-single {
@@ -35,7 +39,8 @@
       }
       b {
         margin-left: auto;
-        font-size: 15px;
+        font-size: 20px;
+        text-align: right;
       }
     }
     svg {
@@ -84,4 +89,19 @@
 .img-trans:hover:before {
   width: 100%;
   height: 100%;
+}
+
+.relative{
+  background: white;
+    position: relative;
+    z-index: 1;
+}
+
+
+@media (max-width: 600px){
+  .valeur-area .exp-single .exp-title b {
+ 
+    font-size: 16px;
+    
+}
 }

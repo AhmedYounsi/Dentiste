@@ -41,14 +41,14 @@ function Cabine() {
       </section>
 
       <Doctor title={false} />
-      <div className="container p-3 rel">
-        <div className="why-choose-content ">
+      <div className="relative">
+        <div className="container p-3">
           <div className="col-lg-12">
             <div className="common-title padding-bottom-40">
               <h2 className="heading">Expérience professionnelle</h2>
             </div>
           </div>
-          <div className="valeur-area">
+          <div className="valeur-area m-auto">
             <div className="exp-single">
               <div className="line"></div>
               <FaRegDotCircle />
@@ -66,7 +66,7 @@ function Cabine() {
               <div className="exp-title">
                 <div className="year">
                   <p>Hôpital Charles Nicolle</p>
-                  <b>1989 - 1890</b>
+                  <b>1989 <span>-</span> 1890</b>
                 </div>
                 <span>1ans d’équivalence à l'hôpital Charles Nicolle service maxillo- facial</span>
               </div>
@@ -77,7 +77,7 @@ function Cabine() {
                 <div className="line"></div>
                 <div className="year">
                   <p>Hôpital Charles Nicolle</p>
-                  <b>1993 - 2005</b>
+                  <b>1993 <span>-</span> 2005</b>
                 </div>
                 <span>Mémoire de fin equivalence sur fentes labio-palatines</span>
               </div>
@@ -88,7 +88,7 @@ function Cabine() {
                 <div className="line"></div>
                 <div className="year">
                   <p>Cabinet privée au Bardo</p>
-                  <b>1990 - 1993</b>
+                  <b>1990 <span>-</span> 1993</b>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ function Cabine() {
                 <div className="line"></div>
                 <div className="year">
                   <p>L’hôpital régional Ben Arous</p>
-                  <b>2005 - 2010</b>
+                  <b>2005 <span>-</span> 2010</b>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ function Cabine() {
               <div className="exp-title">
                 <div className="year">
                   <p>Cabinet privée au Megrine</p>
-                  <b>2010 - présent</b>
+                  <b>2010 <span>-</span> présent</b>
                 </div>
               </div>
             </div>
