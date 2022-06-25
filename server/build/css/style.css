@@ -1216,9 +1216,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 /*---------------------
     ## Breadcumb 
 ----------------------*/
-.breadcrumb-area {
-  padding-left: 85px;
-  padding-right: 85px; }
+ 
   .breadcrumb-area.style-04 .page-title .heading-1 {
     text-transform: capitalize;
     color: #FFFFFF;
@@ -2423,7 +2421,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
         color: #626262;
         font-weight: 500;
         letter-spacing: .5px;
-        padding: 0 1.3rem;
+        padding: 0 15px;
         font-family: var(--heading-font);
         -webkit-transition: all 0.3s ease-in;
         -moz-transition: all 0.3s ease-in;
@@ -5383,7 +5381,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   border: 8px solid #d0e3ff8f;
   border-radius: 20px;
   text-align: center;
-  padding: 50px 0 45px; }
+  padding: 20px 10px 30px; }
   .single-couterup .icon {
     width: 80px;
     height: 80px;
