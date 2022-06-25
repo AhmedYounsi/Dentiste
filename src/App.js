@@ -4,7 +4,7 @@ import React,{useEffect} from "react";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
-import Back from "./assets/img/D0QBdH.jpg";
+import Back from "./assets/img/background-dentiste-tunisie.jpg";
 import { BrowserRouter, Routes, Route, useParams, useLocation } from "react-router-dom";
 import Cabine from "./pages/Cabine/Cabine";
 import Traitements from "./pages/Traitements/Traitements";

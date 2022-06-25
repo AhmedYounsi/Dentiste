@@ -11,7 +11,7 @@ function Footer() {
             <div className="col-lg-6 col-md-6">
               <div className="footer-widget widget logo-widget">
                  
-                  <img src={Logo} alt="Nav Logo" style={{width:130}} />
+                  <img src={Logo} alt="dentiste tunisie logo" style={{width:130}} />
                
                 <ul>
                   <li>

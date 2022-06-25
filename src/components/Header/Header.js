@@ -24,7 +24,7 @@ function Header() {
           <Offcanvas.Title>
             <div className="logo-area mt-1">
               <NavLink to="/">
-                <img src={Logo} className="logo_dentiste" alt="Nav Logo" />
+                <img src={Logo} className="logo_dentiste" alt="dentiste tunisie logo" />
               </NavLink>
             </div>
           </Offcanvas.Title>
@@ -103,7 +103,7 @@ function Header() {
             <div className="header-navbar">
               <div className="logo-area mt-1">
                 <NavLink to="/">
-                  <img src={Logo} className="logo_dentiste" alt="Nav Logo" />
+                  <img src={Logo} className="logo_dentiste" alt="dentiste tunisie logo" />
                 </NavLink>
               </div>
               <nav className="navbar navbar-area navbar-expand-lg">

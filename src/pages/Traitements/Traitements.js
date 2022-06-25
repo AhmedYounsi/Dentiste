@@ -1,10 +1,10 @@
 import React from 'react'
 import Carousel from "react-elastic-carousel";
- import Service2 from "../../assets/img/Orthodontie-400x480.jpg";
-import Service3 from "../../assets/img/chirurgie-dentaire.jpg";
-import Service0 from "../../assets/img/Implantologie-1-1170x658.jpg";
-import Service5 from "../../assets/img/chirurgie-dent-de-sagesse.jpg"
-import Service4 from "../../assets/img/esthetique-dentaire.jpg";
+import Service2 from "../../assets/img/orthodontie-tunisie.jpg";
+import Service3 from "../../assets/img/chirurgie-dentaire-tunisie.jpg";
+import Service0 from "../../assets/img/implant-dentaire-tunisie.jpg";
+import Service5 from "../../assets/img/chirurgie-dent-de-sagesse.jpg";
+import Service4 from "../../assets/img/esthetique-dentaire-tunisie.jpg";
 import Service6 from "../../assets/img/bridge-dentaire-tunisie.jpg";
 import { BsCheck2Square } from "react-icons/bs";
 import RendezVous from '../../components/RendezVous/RendezVous';

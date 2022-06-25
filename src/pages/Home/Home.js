@@ -13,11 +13,9 @@ function Home() {
   return (
     <>
       <br />
-      <Helmet htmlAttributes={{ lang: 'fr' }}>
+      <Helmet htmlAttributes={{ lang: "fr" }}>
         <meta charSet="utf-8" />
-        <title>
-          Dentiste tunisie cabinet | dentiste chirurgien tunisie
-        </title>
+        <title>Dentiste tunisie cabinet | chirurgien dentiste tunisie</title>
         <meta
           name="description"
           content="dentiste tunisie vous aide a trouver un cabient dentiste en tunisien et de prendre une consultation qui vous gagantie des traitements dentaires"

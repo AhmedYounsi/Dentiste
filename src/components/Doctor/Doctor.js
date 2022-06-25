@@ -2,7 +2,7 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import DoctorImage from "../../assets/img/dentiste-tunisie-docteur.png";
-import CabinetImage from "../../assets/img/dentiste-tunisie.jpg";
+import CabinetImage from "../../assets/img/dentiste-tunisie-asma-cherif.jpg";
 import { NavLink, useNavigate } from "react-router-dom";
 
 function Doctor(props) {
@@ -32,7 +32,7 @@ function Doctor(props) {
                         <img
                           src={props.title ? DoctorImage : CabinetImage}
                           className="d-block w-100 mb-2"
-                          alt="dentiste tunisie cabinet presentation"
+                          alt="dentiste tunisie asma cherif"
                         />
                       </div>
                     </div>
