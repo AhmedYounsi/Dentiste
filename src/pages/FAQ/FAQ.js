@@ -10,7 +10,10 @@ function FAQ() {
   const [ShowItem, setShowItem] = useState(null)
 
 
-   
+  const Show =(n) =>{
+    return 'show'
+     if(ShowItem == n) return "show"
+  }
   return (
     <div className="">
           <section className="breadcrumb-area">
