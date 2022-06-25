@@ -7,6 +7,7 @@ import Service0 from "../../assets/img/implant-dentaire-tunisie.jpg";
 import Service5 from "../../assets/img/chirurgie-dent-de-sagesse.jpg";
 import Service4 from "../../assets/img/esthetique-dentaire-tunisie.jpg";
 import Service6 from "../../assets/img/bridge-dentaire-tunisie.jpg";
+import Service7 from "../../assets/img/blanchiement-dentaire-tunisie.jpg";
 import "./ServiceCarousel.scss";
 import { useNavigate } from "react-router-dom";
 function ServiceCarousel() {
@@ -35,8 +36,8 @@ function ServiceCarousel() {
                 <div>
                   <p>
                     Nous vous garantissons des <b>traitements dentaires</b>{" "}
-                    adaptés à vos besoins, <br /> prodigués par le docteur{" "}
-                    <b>Asma Cherif</b>, au prix le plus juste. <br />
+                    adaptés à vos besoins <br /> Prodigués par le docteur{" "}
+                    <b>Asma Cherif</b> chirurgien dentiste, au tarif le plus juste. <br />
                     Ces <b>traitements dentaires</b> vous permettront de
                     conserver ou de rétablir une bonne santé
                   </p>
@@ -55,7 +56,7 @@ function ServiceCarousel() {
                   className="service-item service-carousel"
                 >
                   <div className="heading-6 service-div">
-                    <h3>Implantologie</h3>
+                    <h3>Implants dentaires</h3>
                   </div>
                 </div>
 
@@ -66,6 +67,16 @@ function ServiceCarousel() {
                   <div className="heading-6 service-div">
                     <h3>
                       Aligner par gouttière <br /> transparente
+                    </h3>
+                  </div>
+                </div>
+                <div
+                  style={{ backgroundImage: `url(${Service7})` }}
+                  className="service-item service-carousel"
+                >
+                  <div className="heading-6 service-div">
+                    <h3>
+                    Blanchiment dentaire
                     </h3>
                   </div>
                 </div>

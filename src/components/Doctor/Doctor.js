@@ -47,11 +47,12 @@ function Doctor(props) {
                         <div className="padding-top-30 padding-bottom-0">
                           <div className="presentation-div">
                             <p>
+                           
                               Chirurgien dentiste , avec plus de 20 ans
-                              d’expérience professionnelle, offre ses services
-                              au sein de son propre Cabinet dentaire spécialisé
-                              en prothèse fixée et en implantologie
-                            </p>
+                              d’expérience professionnelle,Asma cherif offre ses services
+                              au sein de son propre Cabinet dentaire spécialisé <br />
+                              <b>  Bienvenue chez notre cabinet Tunisie Dentiste </b>
+                             </p>
                             <br />
                             <p>
                               <BsArrowRight />

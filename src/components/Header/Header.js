@@ -14,7 +14,7 @@ function Header() {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  useEffect(() => {
+  useEffect(() => { 
     setShow(false);
   }, [location.pathname]);
   return (
