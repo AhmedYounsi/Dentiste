@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Logo from "../../assets/img/logo asma2.png"
 
 function Footer() {
@@ -39,17 +40,31 @@ function Footer() {
               <div className="footer-widget widget widget_nav_menu">
                 <p className="widget-title">Liens internes</p>
                 <ul>
+               
                   <li>
-                    <a href="#">Présentation</a>
+                  <NavLink to="/cabinet-dentiste-tunisie">
+                  Le Cabinet
+                </NavLink>
+                 
                   </li>
                   <li>
-                    <a href="#">Le Cabinet</a>
+                  <NavLink to="/traitement-dentaire-tunisie">
+                  Traitements
+                </NavLink>
+                   
                   </li>
                   <li>
-                    <a href="#">Traitements</a>
+                  <NavLink to="/contact-dentiste-tunisie">
+                  Contact
+                </NavLink>
+              
                   </li>
+                  
                   <li>
-                    <a href="#">Contact</a>
+                  <NavLink to="/actualite-dentiste-tunisie">
+                  Actualités
+                </NavLink>
+              
                   </li>
                   
 
@@ -62,13 +77,15 @@ function Footer() {
                 <p className="widget-title">Liens utiles</p>
                 <ul>
                   <li>
-                    <a href="#">Ordre des Chirurgiens Dentistes </a>
+                    <a href="https://www.ordre-chirurgiens-dentistes.fr/">Ordre des Chirurgiens Dentistes </a>
                   </li>
                   <li>
-                    <a href="#">Mentions légales</a>
+                    <a href="https://vymaps.com/TN/Conseil-national-de-l-Ordre-des-m-decins-dentistes-de-Tunisie-684154/">Conseil National</a>
                   </li>
                   <li>
-                    <a href="#"> Plan du site</a>
+                  <NavLink to="/">
+                  Plan du site
+                </NavLink>
                   </li>
                 </ul>
               </div>

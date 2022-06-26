@@ -35,7 +35,9 @@ useEffect(() => {
    
   return (
     <div>
-      <img src={Back} className="background_app" alt="dnetiste tunisie background" />
+      <img
+      width={"1024"} height={"576"}
+      src={Back} className="background_app" alt="dnetiste tunisie background" />
       {/* <InfoFixed /> */}
       <Header />
 

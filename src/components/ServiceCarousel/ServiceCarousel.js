@@ -53,7 +53,7 @@ function ServiceCarousel() {
               >
                 <div
                   style={{ backgroundImage: `url(${Service0})` }}
-                  className="service-item service-carousel"
+                  className="service-item service-carousel "
                 >
                   <div className="heading-6 service-div">
                     <h3>Implants dentaires</h3>

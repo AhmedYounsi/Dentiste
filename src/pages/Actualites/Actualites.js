@@ -32,7 +32,7 @@ function Actualites() {
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
-              <div className="blog-post-single-item">
+              <div className="blog-post-single-item ">
                
                   <img
                   className="img-blog "

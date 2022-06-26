@@ -30,6 +30,7 @@ function Doctor(props) {
                     <div className="col-md-5 col-lg-6 dentiste-img">
                       <div className="doctor-slider-img">
                         <img
+                        
                           src={props.title ? DoctorImage : CabinetImage}
                           className="d-block w-100 mb-2"
                           alt="dentiste tunisie asma cherif"
