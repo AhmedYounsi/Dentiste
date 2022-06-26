@@ -4,6 +4,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import "./FAQ.scss";
 import { FaQuestion } from "react-icons/fa";
 import RendezVous from "../../components/RendezVous/RendezVous";
+import Helmet from "react-helmet";
  
 
 function FAQ() {
@@ -16,6 +17,14 @@ function FAQ() {
   }
   return (
     <div className="">
+        <Helmet htmlAttributes={{ lang: "fr" }}>
+        <meta charSet="utf-8" />
+        <title>Question fréquentes dentiste tunisie | cabinet dentiste tunisie</title>
+        <meta
+          name="description"
+          content="dentiste tunisie vous aide a trouver un cabient dentiste en tunisien et de prendre une consultation qui vous gagantie des traitements dentaires"
+        />
+      </Helmet>
           <section className="breadcrumb-area">
        
        <div className="breadcrumb-content">
@@ -26,7 +35,7 @@ function FAQ() {
          </div>
          <ul className="page-list">
            <li>
-             <a href="index.html">Accueil</a>
+             <a href="">Accueil</a>
            </li>
            <li>FAQ</li>
          </ul>

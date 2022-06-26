@@ -2,9 +2,10 @@
   max-width: 800px;
 
   p {
-    font-size: 20px !important;
-    margin-bottom: 30px !important;
+    font-size: 19px !important;
+   
     color: #595959;
+    font-weight: 500;
     svg {
       color: #ff9191;
       font-size: 30px;
@@ -19,9 +20,11 @@
 
   .exp-single {
       position: relative;
-      padding-bottom: 30px;
+      padding-bottom: 15px;
     display: flex;
     .exp-title {
+      border-bottom: 1px solid #abababa8;
+    padding-bottom: 10px;
       width: 100%;
       font-size: 20px !important;
 
@@ -39,10 +42,13 @@
       }
       b {
         margin-left: auto;
-        font-size: 20px;
+        font-size: 18px;
         text-align: right;
+        color: #868686;
+        font-family: 'Montserrat';
       }
     }
+  
     svg {
         color: #ff9191;
         font-size: 30px;
@@ -63,7 +69,12 @@
   }
 }
 
+.exp-single:last-child{
+  .exp-title{
 
+    border-bottom: 0px !important;
+  }
+ }
 .why-choose-img{
   max-height: 550px;
   overflow: hidden;
@@ -99,9 +110,17 @@
 
 
 @media (max-width: 600px){
-  .valeur-area .exp-single .exp-title b {
- 
-    font-size: 16px;
-    
+  .valeur-area .exp-single .exp-title  {
+    b{
+
+      font-size: 16px;
+    }
+    .year{
+      span{
+        display: none;
+      }
+    }
+   
 }
+
 }

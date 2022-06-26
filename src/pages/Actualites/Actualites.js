@@ -7,7 +7,7 @@ function Actualites() {
     <div>
         <Helmet>
         <meta charSet="utf-8" />
-        <title>Dentiste tunisie cabinet | Blog Dentaires</title>
+        <title>Actualités dentiste tunisie cabinet | Blog Dentaires</title>
         <meta
           name="description"
           content="dentiste tunisie Il s'agit d'un blog concernant: chirurgien dentiste, orthodontiste, prothésiste dentaire ou encore assistant dentaire,détartrage..."
@@ -17,12 +17,12 @@ function Actualites() {
         <div className="breadcrumb-content">
           <div className="col-12 px-0">
             <div className="page-title">
-              <h1 className="heading-2">Actialités Dentiste</h1>
+              <h1 className="heading-2">Actualités dentiste tunisie</h1>
             </div>
           </div>
           <ul className="page-list">
             <li>
-              <a href="index.html">Accueil</a>
+              <a href="">Accueil</a>
             </li>
             <li>Actialités</li>
           </ul>

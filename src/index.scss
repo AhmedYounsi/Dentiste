@@ -1,12 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
 }
-
+p{
+  
+  font-family: 'Montserrat' !important;
+}
 header .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
 }
@@ -14,6 +13,10 @@ header .navbar-expand-lg .navbar-collapse {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.our-doctor{
+  background: rgba(247, 247, 247, 0.6901960784);
 }
 
 .rec-arrow:hover,
@@ -37,10 +40,11 @@ code {
   position: relative;
 }
 
+
 .routes {
   min-height: 100vh;
   margin-top: 110px;
-  transition: 0.3s;
+  
 }
 
 button:active,
@@ -56,9 +60,14 @@ a:active {
   }
 }
 
-
+.main-btn-wrap {
+  font-family: 'Montserrat' !important;
+  font-weight: 600;  
+}
 button {
   box-shadow: none !important;
+  font-family: 'Montserrat' !important;
+  font-weight: 600 !important;  
 }
 
 .primary-button {
@@ -69,6 +78,7 @@ button {
   font-size: 16px;
   text-decoration: none;
   width: fit-content !important;
+  
 }
 
 
@@ -234,4 +244,23 @@ button {
       display: none;
     }
   }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

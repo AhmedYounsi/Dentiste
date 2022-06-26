@@ -10,6 +10,7 @@ import Service7 from "../../assets/img/traitements/blanchiement-dentaire-tunisie
 
 import { BsCheck2Square } from "react-icons/bs";
 import RendezVous from "../../components/RendezVous/RendezVous";
+import Helmet from "react-helmet";
 
 function Traitements() {
   const breakPoints = [
@@ -19,16 +20,24 @@ function Traitements() {
   ];
   return (
     <div className="">
+        <Helmet htmlAttributes={{ lang: "fr" }}>
+        <meta charSet="utf-8" />
+        <title>Traitement dentiste tunisie | cabinet dentiste tunisie</title>
+        <meta
+          name="description"
+          content="dentiste tunisie vous aide a trouver un cabient dentiste en tunisien et de prendre une consultation qui vous gagantie des traitements dentaires"
+        />
+      </Helmet>
       <section className="breadcrumb-area">
         <div className="breadcrumb-content">
           <div className="col-12 px-0">
             <div className="page-title">
-              <h1 className="heading-2">Traitements Dentaire Tunisie</h1>
+              <h1 className="heading-2">Traitements dentaire tunisie</h1>
             </div>
           </div>
           <ul className="page-list">
             <li>
-              <a href="index.html">Accueil</a>
+              <a href="">Accueil</a>
             </li>
             <li>Traitements</li>
           </ul>
@@ -37,21 +46,19 @@ function Traitements() {
 
       <section className="coundown-section">
         <div className="container">
-          <div className="col-lg-12">
+          <div className="row col-lg-12">
             <div className="common-title padding-bottom-20">
               <h2 className="heading">Nos traitements dentaires</h2>
-              <div className="valeur-area mt-3">
+              <div className="valeur-area m-auto mt-3">
                 <p>
                   Chez <b>Tunisie Dentiste</b>, nous vous garantissons des{" "}
-                  <b>traitements dentaires</b> adaptés à vos besoins, prodigués
-                  par le dentiste de votre choix, au prix le plus juste et avec
+                  <b>traitements dentaires</b> adaptés à vos besoins, au prix le plus juste et avec
                   une prise en charge rapide, complète et personnalisée. Ces
                   traitements dentaires vous permettront de conserver ou de
-                  rétablir une bonne santé <b>bucco-dentaire</b>. Nos équipes
-                  sont constituées de praticiens experts et d’assistants
+                  rétablir une bonne santé . Notre docteur Asma cherif est un chirurgien dentiste
                   qualifiés, spécialisés dans de nombreux domaines comme{" "}
-                  <b>l’orthodontie</b>, <b>la pédodontie</b>,{" "}
-                  <b>la parodontologie</b>...
+                  <b>Implantologie</b>, <b>Blanchiment dentaire</b>,{" "}
+                  <b>Détartrage dentaire</b>...
                   <br /> Renseignez-vous en prenant rendez-vous en ligne ou par
                   téléphone pour bénéficier de tous les traitements dont vous
                   avez besoin et de manière adaptée
@@ -142,8 +149,11 @@ function Traitements() {
           </div>
 
           <div className="col-lg-12 col-md-12 mt-5">
-            <h2>Quels sont les avantages ?</h2>
-            <div className="valeur-area">
+          <div className="common-title padding-bottom-20">
+                <h2 className="heading">Quels sont les avantages ?</h2>
+              </div>
+         
+            <div className="valeur-area m-auto">
               <p>
                 Le domaine de la dentisterie est vaste. Avec les évolutions
                 techniques, de plus en plus de possibilités apparaissent et

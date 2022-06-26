@@ -30,18 +30,21 @@ function ServiceCarousel() {
                     <h2 className="heading">Traitements Dentaires</h2>
                   </div>
                 </div>
-                <h3 className="heading-5">
+              <div className="d-flex">
+            
+                <div className="m-auto traitement-text">
+                <h3 className="heading-2">
                   Des <b>traitements dentaires</b> adaptés à vos besoins :
                 </h3>
-                <div>
                   <p>
-                    Nous vous garantissons des <b>traitements dentaires</b>{" "}
+                    Chez dentiste tunisie nous vous garantissons des <b>traitements dentaires</b>{" "}
                     adaptés à vos besoins <br /> Prodigués par le docteur{" "}
                     <b>Asma Cherif</b> chirurgien dentiste, au tarif le plus juste. <br />
                     Ces <b>traitements dentaires</b> vous permettront de
                     conserver ou de rétablir une bonne santé
                   </p>
                 </div>
+              </div>
               </div>
             </div>
 

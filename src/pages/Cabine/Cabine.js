@@ -32,7 +32,7 @@ function Cabine() {
               </div>
               <ul className="page-list">
                 <li>
-                  <a href="index.html">Accueil</a>
+                  <a href="">Accueil</a>
                 </li>
                 <li>Cabinet</li>
               </ul>
@@ -42,7 +42,7 @@ function Cabine() {
 
       <Doctor title={false} />
       <div className="relative">
-        <div className="container p-3">
+        <div className="container paddind-section">
           <div className="col-lg-12">
             <div className="common-title padding-bottom-40">
               <h2 className="heading">Expérience professionnelle</h2>
@@ -120,11 +120,11 @@ function Cabine() {
           <div className="row">
             <div className="col-lg-6 col-md-12">
               <div className="why-choose-content">
-                <div className="common-title padding-bottom-30">
-                  <h2 className="heading line-none">
-                    Pourquoi choisir notre cabinet ?{" "}
-                  </h2>
-                </div>
+             
+              <div className="common-title padding-bottom-40">
+                <h2 className="heading"> Pourquoi choisir notre cabinet ?</h2>
+              </div>
+           
 
                 <div className="valeur-area">
                   <p>

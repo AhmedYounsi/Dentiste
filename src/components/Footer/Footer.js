@@ -29,7 +29,7 @@ function Footer() {
                   </li>
                   <li>
                     <span className="icon">
-                     <b>Adresse</b>
+                     <b>Adresse : </b>
                     </span>
                     23 Bis rue Habib Thameur Megrine Riadh 2034 <br /> – prés de la mosquée
                   </li>
@@ -99,7 +99,7 @@ function Footer() {
           <div className="row">
             <div className="col-lg-12">
               <div className="copyright-area-inner">
-                &copy; Copyright 2019 Tunisie Dentiste -  
+                &copy; Copyright 2022 Tunisie Dentiste 
                 
               </div>
             </div>

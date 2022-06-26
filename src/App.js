@@ -12,6 +12,7 @@ import Contact from "./pages/Contact/Contact";
 import AvantApres from "./pages/AvantApres/AvantApres";
 import Actualites from "./pages/Actualites/Actualites";
 import FAQ from "./pages/FAQ/FAQ";
+import Devis from "./pages/Devis/Devis";
 function App() {
   const location = useLocation()
   useEffect(() => {
@@ -45,6 +46,7 @@ useEffect(() => {
         <Routes>
           <Route path="/" element={<Home />} />
          <Route path="/cabinet-dentiste-tunisie" element={<Cabine />} />
+         <Route path="/rendez-vous-dentiste-tunisie" element={<Devis />} />
           <Route path="/contact-dentiste-tunisie" element={<Contact />} />
           <Route path="/avant-apres-dentiste" element={<AvantApres />} />
           <Route path="/actualite-dentiste-tunisie" element={<Actualites />} />

@@ -1,45 +1,36 @@
 /* eslint-disable */
 import React from "react";
-import RendezVous from "../../components/RendezVous/RendezVous";
-
- 
-import "./Contact.scss";
-import Horaires from "../../components/Horaires/Horaires";
 import Helmet from "react-helmet";
-function Contact() {
+import DevisForm from "../../components/DevisForm/DevisForm";
+import "./Devis.scss";
+function Devis() {
   return (
     <div>
            <Helmet htmlAttributes={{ lang: "fr" }}>
         <meta charSet="utf-8" />
-        <title>Contact dentiste tunisie | cabinet dentiste tunisie</title>
+        <title>Devis en ligne dentiste tunisie | cabinet dentiste tunisie</title>
         <meta
           name="description"
           content="dentiste tunisie vous aide a trouver un cabient dentiste en tunisien et de prendre une consultation qui vous gagantie des traitements dentaires"
         />
       </Helmet>
-        <section className="breadcrumb-area">
-       
-       <div className="breadcrumb-content">
-         <div className="col-12 px-0">
-           <div className="page-title">
-           <h1 className="heading-2">Contactez-nous</h1>
-           </div>
-         </div>
-         <ul className="page-list">
-           <li>
-             <a href="">Accueil</a>
-           </li>
-           <li>Contact</li>
-         </ul>
-       </div>
-  
- </section>
+      <section className="breadcrumb-area">
+        <div className="breadcrumb-content">
+          <div className="col-12 px-0">
+            <div className="page-title">
+              <h1 className="heading-2">Devis dentsite en ligne</h1>
+            </div>
+          </div>
+          <ul className="page-list">
+            <li>
+              <a href="">Accueil</a>
+            </li>
+            <li>Devis</li>
+          </ul>
+        </div>
+      </section>
 
-         
-      <Horaires />
-      
-      
-      <RendezVous />
+      <DevisForm />
       <div className="mapouter">
         <div className="gmap_canvas">
           <iframe
@@ -60,4 +51,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Devis;

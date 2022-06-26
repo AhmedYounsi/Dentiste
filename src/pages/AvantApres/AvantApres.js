@@ -6,6 +6,7 @@ import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
+import Helmet from "react-helmet";
 
 function AvantApres() {
   const [Etat, setEtat] = useState("tous");
@@ -66,25 +67,33 @@ function AvantApres() {
   }, [Etat]);
 
   return (
-    <div className="avant-apres padding-bottom-50">
+    <div className="avant-apres">
+       <Helmet htmlAttributes={{ lang: "fr" }}>
+        <meta charSet="utf-8" />
+        <title>Avant Apres resultat dentiste tunisie | cabinet dentiste tunisie</title>
+        <meta
+          name="description"
+          content="dentiste tunisie vous aide a trouver un cabient dentiste en tunisien et de prendre une consultation qui vous gagantie des traitements dentaires"
+        />
+      </Helmet>
       <section className="breadcrumb-area">
         <div className="breadcrumb-content">
           <div className="col-12 px-0">
             <div className="page-title">
-              <h1 className="heading-2">Resultat Cabinet</h1>
+              <h1 className="heading-2">Avant et après dentiste</h1>
             </div>
           </div>
           <ul className="page-list">
             <li>
-              <a href="index.html">Accueil</a>
+              <a href="">Accueil</a>
             </li>
             <li>Avant Après</li>
           </ul>
         </div>
       </section>
-      <div className="container  py-4">
+      <div className="container  paddind-section">
         <div className="col-lg-12">
-          <div className="common-title padding-bottom-40">
+          <div className="common-title padding-bottom-20">
             <h2 className="heading">Le résultat est ici</h2>
           </div>
         </div>

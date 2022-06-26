@@ -3,6 +3,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import DoctorImage from "../../assets/img/dentiste-tunisie-docteur.png";
 import CabinetImage from "../../assets/img/dentiste-tunisie-asma-cherif.jpg";
+import AsmaCherif  from "../../assets/img/cabinet-dentiste-tunisie-asma-cherif.webp";
 import { NavLink, useNavigate } from "react-router-dom";
 
 function Doctor(props) {
@@ -31,7 +32,7 @@ function Doctor(props) {
                       <div className="doctor-slider-img">
                         <img
                         
-                          src={props.title ? DoctorImage : CabinetImage}
+                          src={props.title ? AsmaCherif : CabinetImage}
                           className="d-block w-100 mb-2"
                           alt="dentiste tunisie asma cherif"
                         />
@@ -45,20 +46,21 @@ function Doctor(props) {
                         <h3 className="heading-6">
                           Médecin dentiste principal
                         </h3>
-                        <div className="padding-top-30 padding-bottom-0">
+                        <div className="padding-top-20 padding-bottom-0">
                           <div className="presentation-div">
                             <p>
                               Chirurgien dentiste , avec plus de 20 ans
                               d’expérience professionnelle, Asma cherif offre ses
                               services au sein de son propre Cabinet dentaire
-                              spécialisé en : <br />
-                              <b>Implants dentaires , Blanchiment dentaire</b>
+                              spécialisé en : 
+                              <b> Implants dentaires, Blanchiment dentaire, Bridge Ceramique - Zircone ...</b>
                               <br />
-                              <p>
-                                {" "}
-                                Bienvenue chez notre cabinet Tunisie Dentiste{" "}
-                              </p>
+                            
                             </p>
+                            <p>
+                                {" "}
+                                Bienvenue chez notre cabinet dentiste tunisie{" "}
+                              </p>
                             <br />
                             <p>
                               <BsArrowRight />

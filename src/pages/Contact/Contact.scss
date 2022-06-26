@@ -15,10 +15,12 @@
 .icon-contact{
     height: 45px !important;
 }
+.mapouter{position:relative;text-align:right;height:500px;width:100%;}
+.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}
 iframe{
     width: 100%;
     position: relative;
-    height: 400px;
+    height: 100%;
 }
 
 .horaire{
@@ -40,7 +42,7 @@ iframe{
         }
         
         p{
-            font-size: 20px !important;
+            font-size: 18px !important;
             margin-bottom: 5px;
             display: flex;
             align-items: center;
@@ -52,12 +54,15 @@ iframe{
     }
     .temps{
         padding: 20px;
+        
         .jour{
             display: flex;
             align-items: center;
             height: 50px;
             border-top: 1px solid #80808087;
+            font-weight: 500;
             p{
+                font-weight: 500;
                 margin: 0;
                 font-size: 18px !important;
             }
