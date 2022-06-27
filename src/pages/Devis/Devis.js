@@ -34,17 +34,16 @@ function Devis() {
       <div className="mapouter">
         <div className="gmap_canvas">
           <iframe
-           
             id="gmap_canvas"
-            src="https://maps.google.com/maps?q=36%C2%B046'06.4%22N%2010%C2%B013'28.4%22E&t=k&z=19&ie=UTF8&iwloc=&output=embed"
+            src="https://maps.google.com/maps?q=36%C2%B046'06.4%22N%2010%C2%B013'28.4%22E&t=k&z=18&ie=UTF8&iwloc=&output=embed"
             frameBorder="0"
             scrolling="no"
             marginHeight="0"
             marginWidth="0"
           ></iframe>
-          <a href="https://123movies-to.org"></a>
+          {/* <a href="https://123movies-to.org"></a>
           <br />
-          <a href="https://www.embedgooglemap.net"></a>
+          <a href="https://www.embedgooglemap.net"></a> */}
         </div>
       </div>
     </div>

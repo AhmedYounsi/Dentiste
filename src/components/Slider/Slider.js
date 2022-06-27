@@ -45,7 +45,7 @@ function Slider() {
                   </div>
                   <div className="main-btn-wrap mt-2">
                     <NavLink
-                      className="nav-link primary-button"
+                      className="nav-link primary-button text-center"
                       to="/rendez-vous-dentiste-tunisie"
                     >
                       <span></span>

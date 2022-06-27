@@ -42,7 +42,7 @@ function Cabine() {
 
       <Doctor title={false} />
       <div className="relative">
-        <div className="container paddind-section">
+        <div className="container paddind-section pr-5">
           <div className="col-lg-12">
             <div className="common-title padding-bottom-40">
               <h2 className="heading">Expérience professionnelle</h2>

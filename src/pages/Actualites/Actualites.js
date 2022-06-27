@@ -3,9 +3,10 @@ import React from "react";
 import Helmet from "react-helmet";
 import "./Actualites.scss";
 function Actualites() {
+
   return (
     <div>
-        <Helmet>
+      <Helmet>
         <meta charSet="utf-8" />
         <title>Actualités dentiste tunisie cabinet | Blog Dentaires</title>
         <meta
@@ -33,13 +34,12 @@ function Actualites() {
           <div className="row">
             <div className="col-lg-8">
               <div className="blog-post-single-item ">
-               
-                  <img
+                <img
                   className="img-blog "
-                    src={require("../../assets/img/blog/sourire-eclatant.jpg")}
-                    alt="sourire eclatant dentaire tunisie"
-                  />
-               
+                  src={require("../../assets/img/blog/sourire-eclatant.jpg")}
+                  alt="sourire eclatant dentaire tunisie"
+                />
+
                 <div className="content">
                   <ul className="post-meta">
                     <li>
@@ -49,7 +49,8 @@ function Actualites() {
                     </li>
                     <li>
                       <a href="#">
-                        <i className="icon far fa-bookmark"></i> Dents Naturelles{" "}
+                        <i className="icon far fa-bookmark"></i> Dents
+                        Naturelles{" "}
                       </a>
                     </li>
                   </ul>
@@ -87,23 +88,24 @@ function Actualites() {
                 </div>
               </div>
               <div className="blog-post-single-item">
-                
-                  <img
-                    className="img-blog"
-                    src={require("../../assets/img/blog/dents-taches-cafe-tasse.jpg")}
-                    alt="dents taches cafe"
-                  />
-              
+                <img
+                  className="img-blog"
+                  src={require("../../assets/img/blog/dents-taches-cafe-tasse.jpg")}
+                  alt="dents taches cafe"
+                />
+
                 <div className="content">
                   <ul className="post-meta">
                     <li>
                       <a href="#">
-                        <i className="icon far fa-calendar-alt"></i> 18 février 2022{" "}
+                        <i className="icon far fa-calendar-alt"></i> 18 février
+                        2022{" "}
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="icon far fa-bookmark"></i> Dents Naturelles{" "}
+                        <i className="icon far fa-bookmark"></i> Dents
+                        Naturelles{" "}
                       </a>
                     </li>
                   </ul>
@@ -136,23 +138,24 @@ function Actualites() {
                 </div>
               </div>
               <div className="blog-post-single-item">
-               
-                  <img
-                    className="img-blog "
-                    src={require("../../assets/img/blog/detartrage-dentaire-tunisie.jpg")}
-                    alt="détartrage dentaire tunisie"
-                  />
-               
+                <img
+                  className="img-blog "
+                  src={require("../../assets/img/blog/detartrage-dentaire-tunisie.jpg")}
+                  alt="détartrage dentaire tunisie"
+                />
+
                 <div className="content">
                   <ul className="post-meta">
                     <li>
                       <a href="#">
-                        <i className="icon far fa-calendar-alt"></i> 01 juin 2022{" "}
+                        <i className="icon far fa-calendar-alt"></i> 01 juin
+                        2022{" "}
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="icon far fa-bookmark"></i> Dents Naturelles{" "}
+                        <i className="icon far fa-bookmark"></i> Dents
+                        Naturelles{" "}
                       </a>
                     </li>
                   </ul>
@@ -213,13 +216,13 @@ function Actualites() {
                         </a>
                       </h4>
                     </div>
-                   
                   </li>
 
                   <li className="single-recent-post-item">
                     <div className="content">
                       <span className="time">
-                        <i className="icon far fa-calendar-alt"></i>18 février 2022
+                        <i className="icon far fa-calendar-alt"></i>18 février
+                        2022
                       </span>
                       <h4 className="title">
                         <a href="#">
@@ -227,7 +230,6 @@ function Actualites() {
                         </a>
                       </h4>
                     </div>
-                   
                   </li>
                   <li className="single-recent-post-item">
                     <div className="content">
@@ -241,7 +243,6 @@ function Actualites() {
                         </a>
                       </h4>
                     </div>
-                   
                   </li>
                 </ul>
               </div>

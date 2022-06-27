@@ -4,7 +4,7 @@ import Service2 from "../../assets/img/traitements/orthodontie-tunisie.jpg";
 import Service3 from "../../assets/img/traitements/chirurgie-dentaire-tunisie.jpg";
 import Service0 from "../../assets/img/traitements/implant-dentaire-tunisie.jpg";
 import Service5 from "../../assets/img/traitements/chirurgie-dent-de-sagesse.jpg";
-import Service4 from "../../assets/img/traitements/esthetique-dentaire-tunisie.jpg";
+import Service4 from "../../assets/img/traitements/facette-dentaire-tunisie.jpg";
 import Service6 from "../../assets/img/traitements/bridge-dentaire-tunisie.jpg";
 import Service7 from "../../assets/img/traitements/blanchiement-dentaire-tunisie.jpg";
 

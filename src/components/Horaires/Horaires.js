@@ -5,7 +5,7 @@ function Horaires() {
   return (
     <div className="container paddind-section">
        <div className="common-title pb-4">
-                <h2 className="heading">Horaire Cabinet</h2>
+                <h2 className="heading">Horaires Cabinet</h2>
               </div>
       <div className="horaire row">
         <div className="desc col-md-6 col-xs-12">
